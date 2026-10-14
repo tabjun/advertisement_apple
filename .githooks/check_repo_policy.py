@@ -1,8 +1,9 @@
 """pre-commit 저장소 정책 검사 (apple 프로젝트용).
 
-아직 활성화되지 않았다 — core.hookspath가 저장소 전체에 하나뿐인데 현재
-quantitative_trading/.githooks로 설정돼 있어, 여기로 바꾸면 그쪽 보호가 꺼진다.
-두 프로젝트를 함께 검사하는 공통 훅으로 통합하기 전까지는 참고용 파일로만 둔다.
+아직 활성화되지 않았다. 2026-10-15 personal_ai_project 모노레포에서 독립 저장소
+(tabjun/advertisement_apple)로 분리되어, hookspath를 quantitative_trading과 나눠 쓰던
+충돌 이유는 사라졌다. 쓰려면 .githooks/pre-commit에서 이 파일을 호출하고
+`git config core.hooksPath .githooks`를 설정한다.
 """
 
 from __future__ import annotations
@@ -12,18 +13,19 @@ import sys
 from pathlib import Path
 
 
-REPO_SUBDIR = "apple"
+# 독립 저장소라 이 폴더가 곧 루트다(예전 값 "apple/").
+REPO_PREFIX = ""
 
 # develop/main은 최종 결과물만 올라가는 브랜치라 아래 지침 파일들을 제외한다
 # (AGENTS.md 2.2절). git merge는 이 규칙을 모르므로, 병합 커밋이든 일반
 # 커밋이든 develop/main에서 이 파일들이 스테이징되면 여기서 차단한다.
 GOVERNANCE_FILES = {
-    f"{REPO_SUBDIR}/AGENTS.md",
-    f"{REPO_SUBDIR}/CLAUDE.md",
-    f"{REPO_SUBDIR}/conversation_l2_cache.md",
-    f"{REPO_SUBDIR}/history.md",
-    f"{REPO_SUBDIR}/process.md",
-    f"{REPO_SUBDIR}/state.md",
+    f"{REPO_PREFIX}AGENTS.md",
+    f"{REPO_PREFIX}CLAUDE.md",
+    f"{REPO_PREFIX}conversation_l2_cache.md",
+    f"{REPO_PREFIX}history.md",
+    f"{REPO_PREFIX}process.md",
+    f"{REPO_PREFIX}state.md",
 }
 GOVERNANCE_EXCLUDED_BRANCHES = {"develop", "main"}
 

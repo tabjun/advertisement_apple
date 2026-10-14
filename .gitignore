@@ -1,0 +1,38 @@
+# 2026-10-15: personal_ai_project 모노레포의 루트 .gitignore에서 이 저장소에 해당하던 규칙을 옮겨 왔다.
+# 독립 저장소로 분리되면 상위 규칙이 더는 적용되지 않으므로, 빠지면 키·원본 데이터가 추적될 수 있다.
+
+# 가상환경
+.venv/
+venv/
+env/
+
+# 환경변수·키 (보안)
+.env
+*.ini
+*.key
+*.db*
+
+# 파이썬 캐시
+__pycache__/
+*.pyc
+build/
+dist/
+wheels/
+*.egg-info
+*.python-version
+.DS_Store
+
+# 편집기·에이전트 로컬 설정
+.vscode/
+.codex/
+.agents/
+
+# 개인정보·결과물
+result/
+
+# 원본 문서·데이터 (이미 추적 중인 파일은 영향 없음)
+*.pdf
+*.hwp
+*.docs
+*.xls*
+*.jpeg
