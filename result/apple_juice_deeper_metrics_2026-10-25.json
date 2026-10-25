@@ -1,0 +1,158 @@
+{
+  "groups": {
+    "2025-05_to_07": {
+      "rows": 62,
+      "sums_imp_click_cost_all_direct_indirect_rev_directrev_indirectrev": [
+        7641.0,
+        16.0,
+        1100.0,
+        2.0,
+        2.0,
+        0.0,
+        49800.0,
+        49800.0,
+        0.0
+      ]
+    },
+    "2025-10_to_12": {
+      "rows": 65,
+      "sums_imp_click_cost_all_direct_indirect_rev_directrev_indirectrev": [
+        15102.0,
+        53.0,
+        3850.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "2026-01_to_05": {
+      "rows": 147,
+      "sums_imp_click_cost_all_direct_indirect_rev_directrev_indirectrev": [
+        57245.0,
+        253.0,
+        20144.0,
+        8.0,
+        7.0,
+        1.0,
+        268500.0,
+        238600.0,
+        29900.0
+      ]
+    },
+    "2026-09_to_10": {
+      "rows": 48,
+      "sums_imp_click_cost_all_direct_indirect_rev_directrev_indirectrev": [
+        6037.0,
+        26.0,
+        1570.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    }
+  },
+  "positive_conversion_days": [
+    {
+      "date": "2025.05.10.",
+      "clicks_on_day": "1",
+      "cost_on_day": "55원",
+      "total_conv": "1",
+      "direct": "1",
+      "indirect": "0",
+      "revenue": "24,900원"
+    },
+    {
+      "date": "2025.06.15.",
+      "clicks_on_day": "1",
+      "cost_on_day": "99원",
+      "total_conv": "1",
+      "direct": "1",
+      "indirect": "0",
+      "revenue": "24,900원"
+    },
+    {
+      "date": "2026.01.12.",
+      "clicks_on_day": "4",
+      "cost_on_day": "286원",
+      "total_conv": "1",
+      "direct": "1",
+      "indirect": "0",
+      "revenue": "28,900원"
+    },
+    {
+      "date": "2026.02.19.",
+      "clicks_on_day": "3",
+      "cost_on_day": "231원",
+      "total_conv": "1",
+      "direct": "1",
+      "indirect": "0",
+      "revenue": "29,900원"
+    },
+    {
+      "date": "2026.03.11.",
+      "clicks_on_day": "3",
+      "cost_on_day": "242원",
+      "total_conv": "2",
+      "direct": "2",
+      "indirect": "0",
+      "revenue": "69,900원"
+    },
+    {
+      "date": "2026.03.13.",
+      "clicks_on_day": "1",
+      "cost_on_day": "77원",
+      "total_conv": "1",
+      "direct": "0",
+      "indirect": "1",
+      "revenue": "29,900원"
+    },
+    {
+      "date": "2026.04.22.",
+      "clicks_on_day": "1",
+      "cost_on_day": "55원",
+      "total_conv": "1",
+      "direct": "1",
+      "indirect": "0",
+      "revenue": "40,000원"
+    },
+    {
+      "date": "2026.05.12.",
+      "clicks_on_day": "3",
+      "cost_on_day": "220원",
+      "total_conv": "1",
+      "direct": "1",
+      "indirect": "0",
+      "revenue": "40,000원"
+    },
+    {
+      "date": "2026.05.27.",
+      "clicks_on_day": "2",
+      "cost_on_day": "110원",
+      "total_conv": "1",
+      "direct": "1",
+      "indirect": "0",
+      "revenue": "29,900원"
+    }
+  ],
+  "gaps_between_metric_rows": [
+    {
+      "after": "2025-07-08",
+      "before": "2025-10-28",
+      "missing_days": 111
+    },
+    {
+      "after": "2026-05-27",
+      "before": "2026-09-02",
+      "missing_days": 97
+    }
+  ],
+  "max_daily_cost": 528.0,
+  "report_rows": 322,
+  "note": "No metric row does not establish paused status; total conversion events are not verified purchases."
+}

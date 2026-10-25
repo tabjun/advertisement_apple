@@ -1,0 +1,119 @@
+{
+  "checked_date_kst": "2026-10-25",
+  "target": {
+    "url": "https://smartstore.naver.com/threebrothersfarmm/products/11659930652",
+    "product_id": "11659930652",
+    "displayed_title": "청송 얼음골 사과주스 사과즙 생과 착즙 무첨가 삼형제농원",
+    "volume_ml": 120,
+    "packs": 50,
+    "total_ml": 6000,
+    "price_krw": 39900,
+    "per_pack_krw": 798,
+    "per_100ml_krw": 665,
+    "shipping": "무료배송; 제주/도서 추가4000원",
+    "manufactured_display": "2025.01.01.",
+    "valid_until_display": "2026.12.31.",
+    "expiry_display": "2025.12.31",
+    "quantity_limit_display": "최대구매 1개(1인)",
+    "review_count": 1,
+    "rating": 4,
+    "buy_button_present": true,
+    "raw_materials_and_processing": "not_verified",
+    "note": "UI seller-entered labels; actual shipment dates/lot and restriction intent not verified"
+  },
+  "competitor": {
+    "url": "https://smartstore.naver.com/solsweet/products/5086758598",
+    "store": "솔스윗",
+    "product_id": "5086758598",
+    "volume_ml": 120,
+    "packs": 50,
+    "selected_option": "50포",
+    "selected_total_krw": 30000,
+    "shipping": "무료배송",
+    "conditional_coupon_price_krw": 29000,
+    "review_count": 2386,
+    "rating": 4.89,
+    "per_pack_krw": 600,
+    "per_100ml_krw": 500,
+    "comparison_scope": "same stated volume/pack count only; processing/ingredients/quality not equivalent verified"
+  },
+  "additional_card_observations": [
+    {
+      "store": "시골 냉장고",
+      "price": 27900,
+      "ml": 120,
+      "packs": 50,
+      "ad": true,
+      "status": "search_card_only_not_selected_option_verified"
+    },
+    {
+      "store": "청송마루농원",
+      "url": "https://smartstore.naver.com/cheongsong__apple/products/4745384765",
+      "price": 29900,
+      "ml": 120,
+      "packs": 50,
+      "ad": false,
+      "status": "detail visited; 1box title conflicts with 2box body wording; exclude firm equivalence"
+    }
+  ],
+  "search": {
+    "url": "https://search.shopping.naver.com/search/all?query=%EC%B2%AD%EC%86%A1%EC%82%AC%EA%B3%BC%EC%A6%99%20120ml%2050%ED%8F%AC",
+    "query": "청송사과즙 120ml 50포",
+    "surface": "네이버 가격비교",
+    "sort": "네이버 랭킹순",
+    "scope": "visible cards only; similar results included; not fixed rank"
+  },
+  "ad_diagnostics": {
+    "url": "https://ads.naver.com/manage/ad-accounts/1755169/sa/tool/exposure-status",
+    "account_id": "1755169",
+    "creative_id": "nad-a001-02-000000378841949",
+    "results": [
+      {
+        "query": "청송사과즙",
+        "surface": "네이버 통합검색 모바일(default)",
+        "text": "광고 미노출 유형\n광고 추정 순위 조회\n\n해당 소재는 광고 노출이 가능한 요건을 모두 갖추었습니다.\n\n광고노출이 가능한 요건을 모두 갖추더라도 광고노출은 보장되지 않습니다. 키워드별 소재간 상품 연관도에 따라 최종 순위가 변경되거나 노출되지 않을 수 있습니다.\n"
+      },
+      {
+        "query": "청송사과즙",
+        "surface": "네이버 쇼핑검색 모바일",
+        "age": "알 수 없음",
+        "gender": "알 수 없음",
+        "text": "광고 미노출 유형\n광고 추정 순위 조회\n\n해당 소재는 광고 노출이 가능한 요건을 모두 갖추었습니다.\n\n광고노출이 가능한 요건을 모두 갖추더라도 광고노출은 보장되지 않습니다. 키워드별 소재간 상품 연관도에 따라 최종 순위가 변경되거나 노출되지 않을 수 있습니다.\n"
+      },
+      {
+        "query": "청송사과",
+        "surface": "네이버 쇼핑검색 모바일",
+        "age": "알 수 없음",
+        "gender": "알 수 없음",
+        "text": "광고 미노출 유형\n\n다음의 사유로 “청송사과” 키워드에서 해당 소재는 광고노출 불가합니다.\n\n광고노출 가능\n카테고리 아님\t키워드와 상품 카테고리의 연관성이 부족해 광고가 노출되지 않습니다.\n\n키워드로 검색했을 경우, 노출되는 타상품들의 카테고리가 무엇인지 확인해주세요.\n키워드와 관련있는 상품이라면 쇼핑파트너센터에서 해당 카테고리로 수정이 필요합니다.\n수정 내역이 쇼핑검색광고에 반영되기까지 1일이 소요됩니다.\n\n단, 카테고리를 수정한 경우에 기존 노출되던 다른 키워드 미노출될 수 있으며, 수정하려는 쇼핑카테고리 관리 상품 정책에 적합한지 확인해 주세요.도움말\n노출 불가 사유를 해소하시면, 광고노출 예상순위를 확인하실 수 있습니다.\n"
+      },
+      {
+        "query": "청송얼음골사과즙",
+        "surface": "네이버 쇼핑검색 모바일",
+        "age": "알 수 없음",
+        "gender": "알 수 없음",
+        "text": "광고 미노출 유형\n광고 추정 순위 조회\n\n해당 소재는 광고 노출이 가능한 요건을 모두 갖추었습니다.\n\n광고노출이 가능한 요건을 모두 갖추더라도 광고노출은 보장되지 않습니다. 키워드별 소재간 상품 연관도에 따라 최종 순위가 변경되거나 노출되지 않을 수 있습니다.\n"
+      }
+    ]
+  },
+  "notice": {
+    "url": "https://ads.naver.com/notice/34974",
+    "published": "2026-10-23",
+    "scheduled_effective": "2026-11-25",
+    "summary": "클릭기대지수10점 참고지표 도입 및 기존 품질지수 제공 종료 예정; 지표 자체가 노출순서를 결정하지 않음; API/대용량 다운로드 미제공 예정"
+  },
+  "fresh_dashboard": {
+    "start": "2026-10-18",
+    "end": "2026-10-24",
+    "impressions": 683,
+    "clicks": 3,
+    "total_conversions": 0,
+    "scope": "account dashboard, not product/purchase reconciliation"
+  },
+  "limitations": [
+    "No external product/ad settings changed",
+    "No orders/buyer information accessed",
+    "No exact estimated rank returned by visible diagnostics",
+    "No broad query coverage inferred from narrow age/gender/surface checks"
+  ]
+}
