@@ -25,10 +25,35 @@ wheels/
 # 편집기·에이전트 로컬 설정
 .vscode/
 .codex/
-.agents/
+# .agents/는 로컬 설정이라 무시하되, 프로젝트 스킬 원본(.agents/skills/)은 Codex·Claude 공유용으로 추적한다(2026-10-18).
+.agents/*
+!.agents/skills/
 
 # 개인정보·결과물
-result/
+result/*
+# 검토한 보고서·분석 근거만 선택 추적한다. 새 원자료는 기본적으로 무시한다.
+!result/apple_juice_analysis_2026-10-20.md
+!result/fresh_apple_history_analysis.md
+!result/ads_history_expanded_2026-10-20.json
+!result/ads_media_2025-11-01_2026-01-31.json
+!result/ads_search_term_clicks_2025-11-01_2026-01-31.csv
+!result/apple_juice_deeper_metrics_2026-10-25.json
+!result/apple_juice_live_evidence_2026-10-25.json
+!result/apple_juice_execution_2026-10-26.json
+!result/apple_juice_ad_title_registered_2026-10-26.png
+!result/apple_juice_extension_registered_2026-10-26.png
+
+# main 단일 브랜치: 공용 작업 규칙·인계 기록은 로컬에 보존한다.
+/AGENTS.md
+/CLAUDE.md
+/chat_history.md
+/conversation_l2_cache.md
+/history.md
+/process.md
+/state.md
+.claude/*
+!.claude/skills/
+.codex-remote-attachments/
 
 # 원본 문서·데이터 (이미 추적 중인 파일은 영향 없음)
 *.pdf

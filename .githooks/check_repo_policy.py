@@ -22,7 +22,7 @@ REPO_PREFIX = ""
 GOVERNANCE_FILES = {
     f"{REPO_PREFIX}AGENTS.md",
     f"{REPO_PREFIX}CLAUDE.md",
-    f"{REPO_PREFIX}conversation_l2_cache.md",
+    f"{REPO_PREFIX}chat_history.md",
     f"{REPO_PREFIX}history.md",
     f"{REPO_PREFIX}process.md",
     f"{REPO_PREFIX}state.md",
