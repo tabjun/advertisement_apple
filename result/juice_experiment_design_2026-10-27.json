@@ -1,0 +1,100 @@
+{
+  "alpha": 0.05,
+  "power": 0.8,
+  "allocation": "1:1 independent eligible users",
+  "method": "two-proportion normal approximation",
+  "sample_size_scenarios": [
+    {
+      "control_rate": 0.01,
+      "treatment_rate": 0.02,
+      "per_arm": 2319,
+      "total": 4638
+    },
+    {
+      "control_rate": 0.02,
+      "treatment_rate": 0.03,
+      "per_arm": 3826,
+      "total": 7652
+    },
+    {
+      "control_rate": 0.02,
+      "treatment_rate": 0.04,
+      "per_arm": 1141,
+      "total": 2282
+    },
+    {
+      "control_rate": 0.04,
+      "treatment_rate": 0.06,
+      "per_arm": 1863,
+      "total": 3726
+    }
+  ],
+  "promotion_scenarios": [
+    {
+      "assumed_variable_cost": 22000,
+      "discounts": [
+        0,
+        1000,
+        2000,
+        3000,
+        4000,
+        5000
+      ],
+      "required_order_ratio": [
+        1.0,
+        1.0591715976331362,
+        1.1257861635220126,
+        1.2013422818791946,
+        1.2877697841726619,
+        1.3875968992248062
+      ]
+    },
+    {
+      "assumed_variable_cost": 28000,
+      "discounts": [
+        0,
+        1000,
+        2000,
+        3000,
+        4000,
+        5000
+      ],
+      "required_order_ratio": [
+        1.0,
+        1.091743119266055,
+        1.202020202020202,
+        1.3370786516853932,
+        1.5063291139240507,
+        1.7246376811594204
+      ]
+    },
+    {
+      "assumed_variable_cost": 34000,
+      "discounts": [
+        0,
+        1000,
+        2000,
+        3000,
+        4000,
+        5000
+      ],
+      "required_order_ratio": [
+        1.0,
+        1.2040816326530612,
+        1.5128205128205128,
+        2.0344827586206895,
+        3.1052631578947367,
+        6.555555555555555
+      ]
+    }
+  ],
+  "sources": [
+    "https://www.statsmodels.org/stable/generated/statsmodels.stats.proportion.power_proportions_2indep.html",
+    "https://www.microsoft.com/en-us/research/wp-content/uploads/2016/06/ftir-online-evaluation-final-journal.pdf"
+  ],
+  "limitations": [
+    "Baseline purchase rate unknown; total ad conversions are not net purchases",
+    "Naver random assignment and exposure linkage are unverified",
+    "Cluster or time-block tests require separate design; this sample-size formula does not apply"
+  ]
+}

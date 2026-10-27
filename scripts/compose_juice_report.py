@@ -13,6 +13,7 @@ t=s['total']; q=s['top3']; qt=s['clicked_query_totals']
 competitor_table='\n'.join(f"| [{x['seller']}]({x['url']}) | {x['price']:,}원 | {x['reviews']:,} | {x['scope']} |" for x in c)
 monthly_table='\n'.join(f"| {m['month']} | {m['rows']} | {m['impressions']:,.0f} | {m['clicks']:.0f} | {m['cost']:,.0f} | {m['conversions']:.0f} | {m['ctr']:.2f}% |" for m in s['monthly'])
 media_table='\n'.join(f"| {k} | {v['impressions']:,.0f} | {v['clicks']:.0f} | {v['cost']:,.0f}원 | {v['ctr']:.2f}% | {v['cpc']:.1f}원 | {v['conversions']:.0f} |" for k,v in s['media_groups'].items())
+growth=(Path(__file__).parent/'growth_report_section.md').read_text(encoding='utf-8')
 report=f'''# 청송사과즙은 노출 확대와 함께 가격·상품 신뢰를 준비해야 합니다
 
 2026-10-27 종합 분석 · 삼형제농원 사과즙 11659930652 · 11월 수확 후 판매 준비
@@ -23,6 +24,9 @@ report=f'''# 청송사과즙은 노출 확대와 함께 가격·상품 신뢰를
 - **관찰한 경쟁 8개보다 가격이 높습니다.** 120ml·50포 일반배송 포함 28,000~30,500원에 비해 우리 상품은39,900원으로 약31~43% 높습니다. 원재료·제조·품질이 동등하다고 확인한 비교는 아니므로, 무조건 할인하기보다 차이를 설명할 실물·제조 증빙과 구성안을 먼저 준비해야 합니다.
 - **과거 광고는 규모가 작고 순주문 검증이 없습니다.** 86.0k노출·348클릭·광고비26,664원·전체전환10건입니다. 2026년1~5월에8건이 관측돼 11월만의 판매 상품으로 볼 근거가 부족합니다. 전체전환은 귀속 이벤트이며 취소·반품 후 주문이나 팩 판매량이 아닙니다.
 - **홍보문구는 실제 노출을 시작했습니다.** 10/27 조회에서 운영 가능·23노출·0클릭입니다. 성과 판단에는 너무 적습니다. 현재 상세의 소비기한 충돌·1인1개 제한·즉시출고 표시는 출시 직전 실제 출고 조건과 대조할 우선 항목입니다.
+- **증분 판매 개선이 입증된 액션은 아직 없습니다.** 순판매팩수와 광고 후 기여이익을 공통성과로 두고, 측정·출고정보·원가를 갖춘 뒤 첫화면 또는한가지혜택을검증합니다. 아래에실험명세·태스크8개·의사결정기준을추가했습니다.
+
+{growth}
 
 ## 1. 사과즙 수요는 모바일 중심이며, 청송사과 단독과 구매 의도가 다릅니다
 
@@ -193,4 +197,4 @@ report=f'''# 청송사과즙은 노출 확대와 함께 가격·상품 신뢰를
 '''
 # GFM interprets paired single tildes as strikethrough; use a range dash.
 path.write_text(report.replace('~','–'),encoding='utf-8')
-print(f'Updated {path.name}: {len(c)} competitors, 9 charts plus market-trend evidence')
+print(f'Updated {path.name}: {len(c)} competitors, 11 charts plus market-trend evidence')
