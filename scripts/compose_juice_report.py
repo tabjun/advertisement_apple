@@ -14,6 +14,7 @@ competitor_table='\n'.join(f"| [{x['seller']}]({x['url']}) | {x['price']:,}원 |
 monthly_table='\n'.join(f"| {m['month']} | {m['rows']} | {m['impressions']:,.0f} | {m['clicks']:.0f} | {m['cost']:,.0f} | {m['conversions']:.0f} | {m['ctr']:.2f}% |" for m in s['monthly'])
 media_table='\n'.join(f"| {k} | {v['impressions']:,.0f} | {v['clicks']:.0f} | {v['cost']:,.0f}원 | {v['ctr']:.2f}% | {v['cpc']:.1f}원 | {v['conversions']:.0f} |" for k,v in s['media_groups'].items())
 growth=(Path(__file__).parent/'growth_report_section.md').read_text(encoding='utf-8')
+ad_plan=(Path(__file__).parent/'ad_plan_section.md').read_text(encoding='utf-8')
 trial_file=R/'juice_trial_2026-10-27.json'
 trial=''
 if trial_file.exists():
@@ -52,6 +53,7 @@ report=f'''# 청송사과즙은 노출 확대와 함께 가격·상품 신뢰를
 - **증분 판매 개선이 입증된 액션은 아직 없습니다.** 순판매팩수와 광고 후 기여이익을 공통성과로 두고, 측정·출고정보·원가를 갖춘 뒤 첫화면 또는한가지혜택을검증합니다. 아래에실험명세·태스크8개·의사결정기준을추가했습니다.
 
 {trial}
+{ad_plan}
 {growth}
 
 ## 1. 사과즙 수요는 모바일 중심이며, 청송사과 단독과 구매 의도가 다릅니다
