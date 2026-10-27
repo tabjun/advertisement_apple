@@ -1,0 +1,10 @@
+{
+  "observed_date_kst": "2026-10-27",
+  "account": "1755169",
+  "period": ["2026-10-21", "2026-10-27"],
+  "source": "Chrome jun99120 광고그룹 확장소재 화면, 오늘 포함 조회, 비동기 갱신 후 재확인",
+  "A": {"short_copy": "청송사과즙50포", "enabled": false, "impressions": 44, "clicks": 0, "cost_krw": 0},
+  "B": {"short_copy": "청송사과즙120ml", "enabled": true, "status": "운영가능", "impressions": 0, "clicks": 0, "cost_krw": 0},
+  "interpretation": "전후 순차 관찰형 시험. 노출 기간이 다르고 B 첫 노출 미확인. 무작위 A/B 또는 판매 개선 결과로 해석할 수 없음.",
+  "mutations_this_request": false
+}
