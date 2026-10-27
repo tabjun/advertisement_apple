@@ -1,0 +1,79 @@
+{
+  "date": "2026-10-27",
+  "query": "청송사과즙 120ml 50포",
+  "sort": "네이버 랭킹순",
+  "population": "로그인PC 검색 관찰·편의표본, 전체시장 아님",
+  "common": "카드/상세120ml50포·무료배송, 조건부 쿠폰 제외. 원재료/제조/품질 동등 아님",
+  "products": [
+    {
+      "seller": "솔스윗",
+      "title": "사과물래 청송사과즙 120ml 50포 100포",
+      "price": 30000,
+      "reviews": 2388,
+      "scope": "검색 카드; 10/25 50포 옵션 검증",
+      "url": "https://smartstore.naver.com/solsweet/products/5086758598"
+    },
+    {
+      "seller": "청송재벌농원",
+      "title": "프리미엄 청송 100% 순수 명품 재벌 사과즙 120ml 50포",
+      "price": 30000,
+      "reviews": 329,
+      "scope": "상세 및 1박스120ml50포 옵션선택 검증",
+      "url": "https://smartstore.naver.com/apple4798/products/4856383215"
+    },
+    {
+      "seller": "청송큰집농원",
+      "title": "2025청송큰집농원 청송 사과즙 100%착즙 120ml 50포 HACCP 무색소 무설탕 무방부제",
+      "price": 28500,
+      "reviews": 231,
+      "scope": "상세120ml50개 및 수량1 총액28500 무료배송 확인",
+      "url": "https://smartstore.naver.com/highapple/products/6051514277"
+    },
+    {
+      "seller": "청송반반농원",
+      "title": "청송반반 청송 사과즙 120ml 50포 사과 99.9% HACCP 사과주스",
+      "price": 30000,
+      "reviews": 3,
+      "scope": "상세120ml50포 옵션선택,무료배송; 단위가격 표기오류/생과본문 혼재",
+      "url": "https://smartstore.naver.com/banbanfarm/products/13639237830"
+    },
+    {
+      "seller": "안녕나의농부",
+      "title": "NFC 착즙 생 100% 청송 사과즙 50포",
+      "price": 30500,
+      "reviews": 497,
+      "scope": "상세120ml·50팩 옵션선택·무료배송",
+      "url": "https://smartstore.naver.com/sangolpodomaeul/products/3989929742"
+    },
+    {
+      "seller": "청송복덩이사과",
+      "title": "청송 복덩이 부사 사과즙 120ml x 50포, 100포 어린이주스",
+      "price": 28000,
+      "reviews": 46,
+      "scope": "상세120ml·50포1박스 옵션선택·무료배송",
+      "url": "https://smartstore.naver.com/blessing__apple/products/6978056549"
+    },
+    {
+      "seller": "청송 임가네 사과농원",
+      "title": "청송 햇사과즙 120ml 50포 100포 명절 선물용",
+      "price": 30000,
+      "reviews": 116,
+      "scope": "상세120ml50포 옵션선택·무료배송",
+      "url": "https://smartstore.naver.com/imganeapple/products/4789678248"
+    },
+    {
+      "seller": "지웨이리빙",
+      "title": "청송 사과즙 120ml 50포",
+      "price": 29000,
+      "reviews": 0,
+      "scope": "상세120ml50개·수량1 총액29000 무료배송 확인",
+      "url": "https://smartstore.naver.com/gwayliving/products/13728272279"
+    }
+  ],
+  "notes": [
+    "솔스윗 옵션검증10/25 및 검색카드10/27, 나머지7개 상세10/27",
+    "재벌농원 100포55000원,복덩이100포55000원,임가네100포55000원은 옵션표시만 관찰",
+    "리뷰는 누적수이며 현재 판매량/증분효과 아님",
+    "경쟁 효능·유기농·어린이 안전 주장/별점조건 후기는 우리 광고에 전용하지 않음"
+  ]
+}
