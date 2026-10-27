@@ -36,6 +36,9 @@ for file,label in zip(sorted((OUT/'juice_figures').glob('*.png')),labels):
     parts.append('<details><summary>'+label+'</summary>'+image('juice_figures/'+file.name,label)+'</details>')
 parts.append('''<h3>근거와 한계</h3><p class="note">광고 일별 원자료, 2025.11–2026.01 매체·클릭 검색어, 10/27 키워드 도구·경쟁 8개 상품, 광고 문구 시험 재조회가 근거입니다. 수요 도구는 네이버 통합검색 기준이며 쇼핑 구매량이 아닙니다. 모바일 클릭 비중 92.9%는 과거 3개월 범위입니다. 전환 이벤트를 순구매율로 계산하지 않았습니다. 요일 차이를 예산 재배분의 인과 근거로 사용하지 않았습니다.</p><p><a href="apple_juice_analysis_2026-10-20.md">전체 분석 보고서와 출처</a> · <a href="juice_trial_refresh_2026-10-27.json">이번 시험 재조회 수치</a></p><p class="note">공식 기준: <a href="https://ads.naver.com/adguide/1018">상품 이미지</a> · <a href="https://ads.naver.com/adguide/1014">상품명</a> · <a href="https://ads.naver.com/help/faq/1233">추가홍보문구</a>. 포스터는 지면별 심사·실제 제품 사실 검수 후 사용합니다.</p></section></main></html>''')
 document = '\n'.join(parts)
+price_update = ROOT / 'scripts' / 'client_price_update_section.html'
+if price_update.exists():
+    document = document.replace('</section>', '</section>' + price_update.read_text(encoding='utf-8'), 1)
 for name in ['apple_juice_analysis_2026-10-20.md', 'juice_trial_refresh_2026-10-27.json']:
     document = document.replace(f'href="{name}"', f'href="https://github.com/tabjun/advertisement_apple/blob/main/result/{name}"')
 (OUT/'juice_client_visual_2026-10-27.html').write_text(document,encoding='utf-8')
