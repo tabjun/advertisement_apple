@@ -46,6 +46,7 @@ result/*
 !result/juice_figures/
 !result/juice_figures/*.png
 !result/juice_extended_metrics_2026-10-27.json
+!result/juice_experiment_design_2026-10-27.json
 !result/juice_competitors_2026-10-27.json
 !result/juice_keyword_demand_2026-10-27.json
 !result/juice_own_listing_2026-10-27.json
