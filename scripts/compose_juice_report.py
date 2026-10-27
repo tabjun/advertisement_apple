@@ -191,5 +191,6 @@ report=f'''# 청송사과즙은 노출 확대와 함께 가격·상품 신뢰를
 
 </details>
 '''
-path.write_text(report,encoding='utf-8')
+# GFM interprets paired single tildes as strikethrough; use a range dash.
+path.write_text(report.replace('~','–'),encoding='utf-8')
 print(f'Updated {path.name}: {len(c)} competitors, 9 charts plus market-trend evidence')
