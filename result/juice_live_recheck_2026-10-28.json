@@ -1,0 +1,1216 @@
+{
+  "request_ids": [
+    80,
+    81,
+    82
+  ],
+  "file_date": "2026-10-28",
+  "continued_on": "2026-10-29",
+  "status": "요청된 조회·확인 시도 완료; 미확인 항목은 별도 명시",
+  "restrictions": {
+    "read_only": true,
+    "ad_clicks": 0,
+    "external_settings_changed": false,
+    "credentials_exported": false,
+    "buyer_information_saved": false
+  },
+  "product": {
+    "url": "https://smartstore.naver.com/threebrothersfarmm/products/11659930652",
+    "last_observed_date": "2026-10-29",
+    "viewport_css_px": {
+      "width": 390,
+      "height": 844
+    },
+    "fields": {
+      "manufactured": "2025-01-01",
+      "expiry": "2025-12-31",
+      "valid_until": "2026-12-31",
+      "manufacturer_field": "청송 삼형제농원",
+      "brand": "자체제작 상품",
+      "volume_ml": 120,
+      "packs": 50,
+      "price_krw": 39900,
+      "shipping_krw": 0,
+      "extra_shipping_jeju_islands_krw": 4000,
+      "purchase_limit": "최대구매 1개(1인)",
+      "shipping_cutoff_structured": "11:00",
+      "shipping_cutoff_detail_image": "평일 낮 12시까지 주문시 당일 오후 6시 전 발송"
+    },
+    "notice_additional_conflict": {
+      "manufactured": "2024-11-01",
+      "expiry": "2025-12-31",
+      "package_quantity": "랜덤",
+      "package_size": "6KG 박스"
+    },
+    "comparison_to_2026_10_27": "제조일/소비기한/유효일/출고마감11시대12시·1인1개·가격39900 유지. 고시 제조일2024-11-01 추가확인.",
+    "detail_label": {
+      "previous_saved_manufacturer_seller": "청송사과식품",
+      "current_asset_url": "https://shop-phinf.pstatic.net/20250331_225/17434171272584jo6T_JPEG/%EC%82%AC%EA%B3%BC%EC%A6%99_%EC%83%81%EC%84%B8%ED%8E%98%EC%9D%B4%EC%A7%80_%EC%A0%84%EB%AC%B8.jpg?type=w848",
+      "current_full_resolution_read": "완료; 현재 상세 이미지의 표를 원본 크기로 확인",
+      "manufacturer": "청송사과식품",
+      "seller": "청송사과식품",
+      "product_name": "청송얼음골 사과즙",
+      "food_type": "과·채주스",
+      "ingredient": "사과 100% (국내산 청송군)",
+      "volume_ml": 120,
+      "evidence": "juice_live_detail_label_2026-10-29.png"
+    },
+    "mobile_first_screen": {
+      "landing": "대표영상이 상단을 차지함. 가격과120ml당단가 보임. 50포·사과100%·날짜·출고안내를 한 화면에 확인하지 못함.",
+      "expanded_detail_image_start": "12시 당일발송과 사과100% 문구 보임. 120ml×50포·제조/소비기한은 첫 화면에 안 보임.",
+      "product_information_table": "별도 상품정보 위치에는120ml/50개/날짜 표시. 대표첫화면과 구분."
+    },
+    "evidence": [
+      "juice_live_product_fields_2026-10-28.png",
+      "juice_live_product_notice_2026-10-28.png",
+      "juice_live_mobile_detail_first_2026-10-28.png",
+      "juice_live_detail_label_2026-10-29.png"
+    ],
+    "limitation": "화면 표시만 확인. 실제 출고 로트/소비기한/공정 진위는 미확인. 구매 옵션 안내만 열고 닫음; 장바구니/바로구매/수량변경 안 함."
+  },
+  "ads_access": {
+    "account": "1755169",
+    "account_name": "삼형제농원",
+    "role": "운영 관리",
+    "login": "기존 Chrome jun99120",
+    "status": "접근 확인"
+  },
+  "query_by_medium": {
+    "capability": "가능; 임시 검색어보고서에서 매체이름/광고그룹 더블클릭 추가 후 조회; 보고서형식저장 안 함",
+    "history": {
+      "checked_at": "2026-10-28T22:25:57+09:00",
+      "period": [
+        "2025-11-01",
+        "2026-01-31"
+      ],
+      "rows": [
+        {
+          "query": "얼음골사과즙",
+          "match_type": "일치",
+          "medium": "네이버 쇼핑 - PC",
+          "ad_group": "쇼핑검색#1_광고그룹#1",
+          "impressions": 54,
+          "clicks": 0,
+          "cost_krw": 0,
+          "conversion_events": 0
+        },
+        {
+          "query": "얼음골사과즙",
+          "match_type": "일치",
+          "medium": "네이버 쇼핑 - 모바일",
+          "ad_group": "쇼핑검색#1_광고그룹#1",
+          "impressions": 378,
+          "clicks": 2,
+          "cost_krw": 198,
+          "conversion_events": 0
+        },
+        {
+          "query": "얼음골사과즙",
+          "match_type": "일치",
+          "medium": "네이버 통합검색 - PC",
+          "ad_group": "쇼핑검색#1_광고그룹#1",
+          "impressions": 21,
+          "clicks": 0,
+          "cost_krw": 0,
+          "conversion_events": 0
+        },
+        {
+          "query": "얼음골사과즙",
+          "match_type": "일치",
+          "medium": "네이버 통합검색 - 모바일",
+          "ad_group": "쇼핑검색#1_광고그룹#1",
+          "impressions": 929,
+          "clicks": 10,
+          "cost_krw": 891,
+          "conversion_events": 0
+        },
+        {
+          "query": "얼음골사과즙",
+          "match_type": "일치",
+          "medium": "네이버 통합검색 추천-모바일",
+          "ad_group": "쇼핑검색#1_광고그룹#1",
+          "impressions": 191,
+          "clicks": 2,
+          "cost_krw": 165,
+          "conversion_events": 0
+        },
+        {
+          "query": "얼음골사과즙",
+          "match_type": "일치",
+          "medium": "네이버플러스 스토어 - PC",
+          "ad_group": "쇼핑검색#1_광고그룹#1",
+          "impressions": 13,
+          "clicks": 0,
+          "cost_krw": 0,
+          "conversion_events": 0
+        },
+        {
+          "query": "얼음골사과즙",
+          "match_type": "일치",
+          "medium": "네이버플러스 스토어 - 모바일",
+          "ad_group": "쇼핑검색#1_광고그룹#1",
+          "impressions": 163,
+          "clicks": 1,
+          "cost_krw": 55,
+          "conversion_events": 0
+        },
+        {
+          "query": "얼음골사과즙",
+          "match_type": "일치",
+          "medium": "네이트검색-모바일",
+          "ad_group": "쇼핑검색#1_광고그룹#1",
+          "impressions": 7,
+          "clicks": 0,
+          "cost_krw": 0,
+          "conversion_events": 0
+        },
+        {
+          "query": "얼음골사과즙",
+          "match_type": "일치",
+          "medium": "다나와 - PC",
+          "ad_group": "쇼핑검색#1_광고그룹#1",
+          "impressions": 2,
+          "clicks": 0,
+          "cost_krw": 0,
+          "conversion_events": 0
+        },
+        {
+          "query": "얼음골사과즙",
+          "match_type": "일치",
+          "medium": "다나와 - 모바일",
+          "ad_group": "쇼핑검색#1_광고그룹#1",
+          "impressions": 2,
+          "clicks": 0,
+          "cost_krw": 0,
+          "conversion_events": 0
+        },
+        {
+          "query": "얼음골사과즙",
+          "match_type": "일치",
+          "medium": "다음-PC",
+          "ad_group": "쇼핑검색#1_광고그룹#1",
+          "impressions": 15,
+          "clicks": 0,
+          "cost_krw": 0,
+          "conversion_events": 0
+        },
+        {
+          "query": "얼음골사과즙",
+          "match_type": "일치",
+          "medium": "다음-모바일",
+          "ad_group": "쇼핑검색#1_광고그룹#1",
+          "impressions": 25,
+          "clicks": 1,
+          "cost_krw": 88,
+          "conversion_events": 0
+        },
+        {
+          "query": "얼음골사과즙",
+          "match_type": "일치",
+          "medium": "당근마켓-모바일",
+          "ad_group": "쇼핑검색#1_광고그룹#1",
+          "impressions": 860,
+          "clicks": 1,
+          "cost_krw": 88,
+          "conversion_events": 0
+        },
+        {
+          "query": "얼음골사과즙",
+          "match_type": "일치",
+          "medium": "번개장터 - 모바일",
+          "ad_group": "쇼핑검색#1_광고그룹#1",
+          "impressions": 2,
+          "clicks": 0,
+          "cost_krw": 0,
+          "conversion_events": 0
+        },
+        {
+          "query": "얼음골사과즙",
+          "match_type": "일치",
+          "medium": "쇼핑하우-PC",
+          "ad_group": "쇼핑검색#1_광고그룹#1",
+          "impressions": 1,
+          "clicks": 0,
+          "cost_krw": 0,
+          "conversion_events": 0
+        },
+        {
+          "query": "얼음골사과즙",
+          "match_type": "일치",
+          "medium": "쇼핑하우-모바일",
+          "ad_group": "쇼핑검색#1_광고그룹#1",
+          "impressions": 6,
+          "clicks": 0,
+          "cost_krw": 0,
+          "conversion_events": 0
+        },
+        {
+          "query": "얼음골사과즙",
+          "match_type": "일치",
+          "medium": "에누리-모바일",
+          "ad_group": "쇼핑검색#1_광고그룹#1",
+          "impressions": 1,
+          "clicks": 0,
+          "cost_krw": 0,
+          "conversion_events": 0
+        },
+        {
+          "query": "얼음골사과즙",
+          "match_type": "일치",
+          "medium": "중고나라-모바일",
+          "ad_group": "쇼핑검색#1_광고그룹#1",
+          "impressions": 2,
+          "clicks": 0,
+          "cost_krw": 0,
+          "conversion_events": 0
+        },
+        {
+          "query": "얼음골사과즙",
+          "match_type": "일치",
+          "medium": "헬로마켓-모바일",
+          "ad_group": "쇼핑검색#1_광고그룹#1",
+          "impressions": 1,
+          "clicks": 0,
+          "cost_krw": 0,
+          "conversion_events": 0
+        },
+        {
+          "query": "얼음골사과즙",
+          "match_type": "일치",
+          "medium": "홈쇼핑모아-모바일",
+          "ad_group": "쇼핑검색#1_광고그룹#1",
+          "impressions": 1,
+          "clicks": 0,
+          "cost_krw": 0,
+          "conversion_events": 0
+        },
+        {
+          "query": "청송사과즙",
+          "match_type": "일치",
+          "medium": "네이버 쇼핑 - PC",
+          "ad_group": "쇼핑검색#1_광고그룹#1",
+          "impressions": 12,
+          "clicks": 0,
+          "cost_krw": 0,
+          "conversion_events": 0
+        },
+        {
+          "query": "청송사과즙",
+          "match_type": "일치",
+          "medium": "네이버 쇼핑 - 모바일",
+          "ad_group": "쇼핑검색#1_광고그룹#1",
+          "impressions": 334,
+          "clicks": 1,
+          "cost_krw": 99,
+          "conversion_events": 0
+        },
+        {
+          "query": "청송사과즙",
+          "match_type": "일치",
+          "medium": "네이버 쇼핑 추천 - 모바일",
+          "ad_group": "쇼핑검색#1_광고그룹#1",
+          "impressions": 1,
+          "clicks": 0,
+          "cost_krw": 0,
+          "conversion_events": 0
+        },
+        {
+          "query": "청송사과즙",
+          "match_type": "일치",
+          "medium": "네이버 통합검색 - 모바일",
+          "ad_group": "쇼핑검색#1_광고그룹#1",
+          "impressions": 167,
+          "clicks": 4,
+          "cost_krw": 396,
+          "conversion_events": 0
+        },
+        {
+          "query": "청송사과즙",
+          "match_type": "일치",
+          "medium": "네이버 통합검색 추천-모바일",
+          "ad_group": "쇼핑검색#1_광고그룹#1",
+          "impressions": 91,
+          "clicks": 3,
+          "cost_krw": 297,
+          "conversion_events": 0
+        },
+        {
+          "query": "청송사과즙",
+          "match_type": "일치",
+          "medium": "네이버플러스 스토어 - PC",
+          "ad_group": "쇼핑검색#1_광고그룹#1",
+          "impressions": 47,
+          "clicks": 0,
+          "cost_krw": 0,
+          "conversion_events": 0
+        },
+        {
+          "query": "청송사과즙",
+          "match_type": "일치",
+          "medium": "네이버플러스 스토어 - 모바일",
+          "ad_group": "쇼핑검색#1_광고그룹#1",
+          "impressions": 403,
+          "clicks": 2,
+          "cost_krw": 187,
+          "conversion_events": 0
+        },
+        {
+          "query": "청송사과즙",
+          "match_type": "일치",
+          "medium": "다나와 - 모바일",
+          "ad_group": "쇼핑검색#1_광고그룹#1",
+          "impressions": 1,
+          "clicks": 0,
+          "cost_krw": 0,
+          "conversion_events": 0
+        },
+        {
+          "query": "청송사과즙",
+          "match_type": "일치",
+          "medium": "다음-PC",
+          "ad_group": "쇼핑검색#1_광고그룹#1",
+          "impressions": 2,
+          "clicks": 0,
+          "cost_krw": 0,
+          "conversion_events": 0
+        },
+        {
+          "query": "청송사과즙",
+          "match_type": "일치",
+          "medium": "다음-모바일",
+          "ad_group": "쇼핑검색#1_광고그룹#1",
+          "impressions": 3,
+          "clicks": 0,
+          "cost_krw": 0,
+          "conversion_events": 0
+        },
+        {
+          "query": "청송사과즙",
+          "match_type": "일치",
+          "medium": "당근마켓-모바일",
+          "ad_group": "쇼핑검색#1_광고그룹#1",
+          "impressions": 6923,
+          "clicks": 33,
+          "cost_krw": 2552,
+          "conversion_events": 0
+        },
+        {
+          "query": "청송사과즙",
+          "match_type": "일치",
+          "medium": "번개장터 - 모바일",
+          "ad_group": "쇼핑검색#1_광고그룹#1",
+          "impressions": 6,
+          "clicks": 0,
+          "cost_krw": 0,
+          "conversion_events": 0
+        },
+        {
+          "query": "청송사과즙",
+          "match_type": "일치",
+          "medium": "쇼핑하우-PC",
+          "ad_group": "쇼핑검색#1_광고그룹#1",
+          "impressions": 1,
+          "clicks": 0,
+          "cost_krw": 0,
+          "conversion_events": 0
+        },
+        {
+          "query": "청송사과즙",
+          "match_type": "일치",
+          "medium": "쇼핑하우-모바일",
+          "ad_group": "쇼핑검색#1_광고그룹#1",
+          "impressions": 9,
+          "clicks": 1,
+          "cost_krw": 99,
+          "conversion_events": 0
+        },
+        {
+          "query": "청송사과즙",
+          "match_type": "일치",
+          "medium": "에누리-모바일",
+          "ad_group": "쇼핑검색#1_광고그룹#1",
+          "impressions": 2,
+          "clicks": 0,
+          "cost_krw": 0,
+          "conversion_events": 0
+        },
+        {
+          "query": "청송사과즙",
+          "match_type": "일치",
+          "medium": "최저가마켓-모바일",
+          "ad_group": "쇼핑검색#1_광고그룹#1",
+          "impressions": 13,
+          "clicks": 0,
+          "cost_krw": 0,
+          "conversion_events": 0
+        },
+        {
+          "query": "청송얼음골사과즙",
+          "match_type": "일치",
+          "medium": "네이버 쇼핑 - PC",
+          "ad_group": "쇼핑검색#1_광고그룹#1",
+          "impressions": 1,
+          "clicks": 0,
+          "cost_krw": 0,
+          "conversion_events": 0
+        },
+        {
+          "query": "청송얼음골사과즙",
+          "match_type": "일치",
+          "medium": "네이버 쇼핑 - 모바일",
+          "ad_group": "쇼핑검색#1_광고그룹#1",
+          "impressions": 16,
+          "clicks": 1,
+          "cost_krw": 55,
+          "conversion_events": 0
+        },
+        {
+          "query": "청송얼음골사과즙",
+          "match_type": "일치",
+          "medium": "네이버 통합검색 - PC",
+          "ad_group": "쇼핑검색#1_광고그룹#1",
+          "impressions": 6,
+          "clicks": 3,
+          "cost_krw": 165,
+          "conversion_events": 0
+        },
+        {
+          "query": "청송얼음골사과즙",
+          "match_type": "일치",
+          "medium": "네이버 통합검색 - 모바일",
+          "ad_group": "쇼핑검색#1_광고그룹#1",
+          "impressions": 75,
+          "clicks": 13,
+          "cost_krw": 715,
+          "conversion_events": 0
+        },
+        {
+          "query": "청송얼음골사과즙",
+          "match_type": "일치",
+          "medium": "네이버 통합검색 네이버플러스 스토어 - PC",
+          "ad_group": "쇼핑검색#1_광고그룹#1",
+          "impressions": 6,
+          "clicks": 0,
+          "cost_krw": 0,
+          "conversion_events": 0
+        },
+        {
+          "query": "청송얼음골사과즙",
+          "match_type": "일치",
+          "medium": "네이버 통합검색 네이버플러스 스토어 - 모바일",
+          "ad_group": "쇼핑검색#1_광고그룹#1",
+          "impressions": 68,
+          "clicks": 4,
+          "cost_krw": 220,
+          "conversion_events": 0
+        },
+        {
+          "query": "청송얼음골사과즙",
+          "match_type": "일치",
+          "medium": "네이버플러스 스토어 - 모바일",
+          "ad_group": "쇼핑검색#1_광고그룹#1",
+          "impressions": 5,
+          "clicks": 0,
+          "cost_krw": 0,
+          "conversion_events": 0
+        },
+        {
+          "query": "형제농원",
+          "match_type": "일치",
+          "medium": "네이버 쇼핑 - PC",
+          "ad_group": "쇼핑검색#1_광고그룹#1",
+          "impressions": 6,
+          "clicks": 0,
+          "cost_krw": 0,
+          "conversion_events": 0
+        },
+        {
+          "query": "형제농원",
+          "match_type": "일치",
+          "medium": "네이버 쇼핑 - 모바일",
+          "ad_group": "쇼핑검색#1_광고그룹#1",
+          "impressions": 8,
+          "clicks": 0,
+          "cost_krw": 0,
+          "conversion_events": 0
+        },
+        {
+          "query": "형제농원",
+          "match_type": "일치",
+          "medium": "네이버 통합검색 - PC",
+          "ad_group": "쇼핑검색#1_광고그룹#1",
+          "impressions": 193,
+          "clicks": 0,
+          "cost_krw": 0,
+          "conversion_events": 0
+        },
+        {
+          "query": "형제농원",
+          "match_type": "일치",
+          "medium": "네이버 통합검색 - 모바일",
+          "ad_group": "쇼핑검색#1_광고그룹#1",
+          "impressions": 2170,
+          "clicks": 1,
+          "cost_krw": 55,
+          "conversion_events": 0
+        },
+        {
+          "query": "형제농원",
+          "match_type": "일치",
+          "medium": "네이버 통합검색 네이버플러스 스토어 - PC",
+          "ad_group": "쇼핑검색#1_광고그룹#1",
+          "impressions": 158,
+          "clicks": 0,
+          "cost_krw": 0,
+          "conversion_events": 0
+        },
+        {
+          "query": "형제농원",
+          "match_type": "일치",
+          "medium": "네이버 통합검색 네이버플러스 스토어 - 모바일",
+          "ad_group": "쇼핑검색#1_광고그룹#1",
+          "impressions": 1277,
+          "clicks": 0,
+          "cost_krw": 0,
+          "conversion_events": 0
+        },
+        {
+          "query": "형제농원",
+          "match_type": "일치",
+          "medium": "네이버플러스 스토어 - PC",
+          "ad_group": "쇼핑검색#1_광고그룹#1",
+          "impressions": 2,
+          "clicks": 0,
+          "cost_krw": 0,
+          "conversion_events": 0
+        },
+        {
+          "query": "형제농원",
+          "match_type": "일치",
+          "medium": "네이버플러스 스토어 - 모바일",
+          "ad_group": "쇼핑검색#1_광고그룹#1",
+          "impressions": 11,
+          "clicks": 0,
+          "cost_krw": 0,
+          "conversion_events": 0
+        },
+        {
+          "query": "형제농원",
+          "match_type": "일치",
+          "medium": "다음-PC",
+          "ad_group": "쇼핑검색#1_광고그룹#1",
+          "impressions": 12,
+          "clicks": 0,
+          "cost_krw": 0,
+          "conversion_events": 0
+        },
+        {
+          "query": "형제농원",
+          "match_type": "일치",
+          "medium": "다음-모바일",
+          "ad_group": "쇼핑검색#1_광고그룹#1",
+          "impressions": 36,
+          "clicks": 0,
+          "cost_krw": 0,
+          "conversion_events": 0
+        },
+        {
+          "query": "형제농원",
+          "match_type": "일치",
+          "medium": "당근마켓-모바일",
+          "ad_group": "쇼핑검색#1_광고그룹#1",
+          "impressions": 20,
+          "clicks": 0,
+          "cost_krw": 0,
+          "conversion_events": 0
+        },
+        {
+          "query": "형제농원",
+          "match_type": "일치",
+          "medium": "에누리-PC",
+          "ad_group": "쇼핑검색#1_광고그룹#1",
+          "impressions": 3,
+          "clicks": 0,
+          "cost_krw": 0,
+          "conversion_events": 0
+        }
+      ],
+      "summaries": [
+        {
+          "query": "얼음골사과즙",
+          "surface": "전체",
+          "impressions": 2674,
+          "clicks": 17,
+          "cost_krw": 1485,
+          "conversion_events": 0,
+          "ctr_pct": 0.6357516828721017
+        },
+        {
+          "query": "얼음골사과즙",
+          "surface": "네이버 계열",
+          "impressions": 1749,
+          "clicks": 15,
+          "cost_krw": 1309,
+          "conversion_events": 0,
+          "ctr_pct": 0.8576329331046313
+        },
+        {
+          "query": "얼음골사과즙",
+          "surface": "기타 외부",
+          "impressions": 65,
+          "clicks": 1,
+          "cost_krw": 88,
+          "conversion_events": 0,
+          "ctr_pct": 1.5384615384615385
+        },
+        {
+          "query": "얼음골사과즙",
+          "surface": "당근",
+          "impressions": 860,
+          "clicks": 1,
+          "cost_krw": 88,
+          "conversion_events": 0,
+          "ctr_pct": 0.11627906976744186
+        },
+        {
+          "query": "청송사과즙",
+          "surface": "전체",
+          "impressions": 8015,
+          "clicks": 44,
+          "cost_krw": 3630,
+          "conversion_events": 0,
+          "ctr_pct": 0.5489706799750468
+        },
+        {
+          "query": "청송사과즙",
+          "surface": "네이버 계열",
+          "impressions": 1055,
+          "clicks": 10,
+          "cost_krw": 979,
+          "conversion_events": 0,
+          "ctr_pct": 0.9478672985781991
+        },
+        {
+          "query": "청송사과즙",
+          "surface": "기타 외부",
+          "impressions": 37,
+          "clicks": 1,
+          "cost_krw": 99,
+          "conversion_events": 0,
+          "ctr_pct": 2.7027027027027026
+        },
+        {
+          "query": "청송사과즙",
+          "surface": "당근",
+          "impressions": 6923,
+          "clicks": 33,
+          "cost_krw": 2552,
+          "conversion_events": 0,
+          "ctr_pct": 0.47667196302181136
+        },
+        {
+          "query": "청송얼음골사과즙",
+          "surface": "전체",
+          "impressions": 177,
+          "clicks": 21,
+          "cost_krw": 1155,
+          "conversion_events": 0,
+          "ctr_pct": 11.864406779661017
+        },
+        {
+          "query": "청송얼음골사과즙",
+          "surface": "네이버 계열",
+          "impressions": 177,
+          "clicks": 21,
+          "cost_krw": 1155,
+          "conversion_events": 0,
+          "ctr_pct": 11.864406779661017
+        },
+        {
+          "query": "형제농원",
+          "surface": "전체",
+          "impressions": 3896,
+          "clicks": 1,
+          "cost_krw": 55,
+          "conversion_events": 0,
+          "ctr_pct": 0.025667351129363452
+        },
+        {
+          "query": "형제농원",
+          "surface": "네이버 계열",
+          "impressions": 3825,
+          "clicks": 1,
+          "cost_krw": 55,
+          "conversion_events": 0,
+          "ctr_pct": 0.026143790849673207
+        },
+        {
+          "query": "형제농원",
+          "surface": "기타 외부",
+          "impressions": 51,
+          "clicks": 0,
+          "cost_krw": 0,
+          "conversion_events": 0,
+          "ctr_pct": 0.0
+        },
+        {
+          "query": "형제농원",
+          "surface": "당근",
+          "impressions": 20,
+          "clicks": 0,
+          "cost_krw": 0,
+          "conversion_events": 0,
+          "ctr_pct": 0.0
+        }
+      ],
+      "coverage": "200행/페이지,3페이지 확인; 대상4검색어55행만 추출. 기존4검색어전체합계와노출/클릭/비용일치",
+      "verified_comparison": [
+        {
+          "query": "청송사과즙",
+          "naver_named_media": {
+            "impressions": 1055,
+            "clicks": 10,
+            "cost_krw": 979,
+            "conversion_events": 0,
+            "ctr_pct": 0.9478672985781991
+          },
+          "carrot": {
+            "impressions": 6923,
+            "clicks": 33,
+            "cost_krw": 2552,
+            "conversion_events": 0,
+            "ctr_pct": 0.47667196302181136
+          },
+          "naver_integrated_mobile": {
+            "impressions": 167,
+            "clicks": 4,
+            "cost_krw": 396,
+            "conversion_events": 0,
+            "ctr_pct": 2.395209580838323
+          }
+        },
+        {
+          "query": "청송얼음골사과즙",
+          "naver_named_media": {
+            "impressions": 177,
+            "clicks": 21,
+            "cost_krw": 1155,
+            "conversion_events": 0,
+            "ctr_pct": 11.864406779661017
+          },
+          "carrot": {
+            "impressions": 0,
+            "clicks": 0,
+            "cost_krw": 0,
+            "conversion_events": 0,
+            "ctr_pct": null
+          },
+          "naver_integrated_mobile": {
+            "impressions": 75,
+            "clicks": 13,
+            "cost_krw": 715,
+            "conversion_events": 0,
+            "ctr_pct": 17.333333333333332
+          }
+        },
+        {
+          "query": "얼음골사과즙",
+          "naver_named_media": {
+            "impressions": 1749,
+            "clicks": 15,
+            "cost_krw": 1309,
+            "conversion_events": 0,
+            "ctr_pct": 0.8576329331046312
+          },
+          "carrot": {
+            "impressions": 860,
+            "clicks": 1,
+            "cost_krw": 88,
+            "conversion_events": 0,
+            "ctr_pct": 0.11627906976744186
+          },
+          "naver_integrated_mobile": {
+            "impressions": 929,
+            "clicks": 10,
+            "cost_krw": 891,
+            "conversion_events": 0,
+            "ctr_pct": 1.0764262648008611
+          }
+        },
+        {
+          "query": "형제농원",
+          "naver_named_media": {
+            "impressions": 3825,
+            "clicks": 1,
+            "cost_krw": 55,
+            "conversion_events": 0,
+            "ctr_pct": 0.026143790849673203
+          },
+          "carrot": {
+            "impressions": 20,
+            "clicks": 0,
+            "cost_krw": 0,
+            "conversion_events": 0,
+            "ctr_pct": 0.0
+          },
+          "naver_integrated_mobile": {
+            "impressions": 2170,
+            "clicks": 1,
+            "cost_krw": 55,
+            "conversion_events": 0,
+            "ctr_pct": 0.04608294930875576
+          }
+        }
+      ]
+    },
+    "recent": {
+      "checked_at": "2026-10-29T00:43:17+09:00",
+      "requested_period": [
+        "2026-10-28",
+        "2026-10-29"
+      ],
+      "available_period": [
+        "2026-10-28",
+        "2026-10-28"
+      ],
+      "rows": [
+        {
+          "query": "얼음골사과즙",
+          "match_type": "일치",
+          "medium": "네이버 통합검색 - 모바일",
+          "ad_group": "쇼핑검색#1_광고그룹#1",
+          "impressions": 1,
+          "clicks": 0,
+          "cost_krw": 0,
+          "conversion_events": 0
+        },
+        {
+          "query": "얼음골사과즙",
+          "match_type": "일치",
+          "medium": "네이버플러스 스토어 - 모바일",
+          "ad_group": "쇼핑검색#1_광고그룹#1",
+          "impressions": 1,
+          "clicks": 0,
+          "cost_krw": 0,
+          "conversion_events": 0
+        },
+        {
+          "query": "청송사과즙",
+          "match_type": "일치",
+          "medium": "네이버 통합검색 - 모바일",
+          "ad_group": "쇼핑검색#1_광고그룹#1",
+          "impressions": 1,
+          "clicks": 0,
+          "cost_krw": 0,
+          "conversion_events": 0
+        },
+        {
+          "query": "청송사과즙",
+          "match_type": "일치",
+          "medium": "네이버플러스 스토어 - PC",
+          "ad_group": "쇼핑검색#1_광고그룹#1",
+          "impressions": 2,
+          "clicks": 0,
+          "cost_krw": 0,
+          "conversion_events": 0
+        },
+        {
+          "query": "청송사과즙",
+          "match_type": "일치",
+          "medium": "네이버플러스 스토어 - 모바일",
+          "ad_group": "쇼핑검색#1_광고그룹#1",
+          "impressions": 18,
+          "clicks": 0,
+          "cost_krw": 0,
+          "conversion_events": 0
+        },
+        {
+          "query": "청송사과즙",
+          "match_type": "일치",
+          "medium": "당근마켓-모바일",
+          "ad_group": "쇼핑검색#1_광고그룹#1",
+          "impressions": 1,
+          "clicks": 0,
+          "cost_krw": 0,
+          "conversion_events": 0
+        },
+        {
+          "query": "형제농원",
+          "match_type": "일치",
+          "medium": "네이버 통합검색 - PC",
+          "ad_group": "쇼핑검색#1_광고그룹#1",
+          "impressions": 1,
+          "clicks": 0,
+          "cost_krw": 0,
+          "conversion_events": 0
+        },
+        {
+          "query": "형제농원",
+          "match_type": "일치",
+          "medium": "다음-모바일",
+          "ad_group": "쇼핑검색#1_광고그룹#1",
+          "impressions": 2,
+          "clicks": 0,
+          "cost_krw": 0,
+          "conversion_events": 0
+        },
+        {
+          "query": "형제농원",
+          "match_type": "일치",
+          "medium": "당근마켓-모바일",
+          "ad_group": "쇼핑검색#1_광고그룹#1",
+          "impressions": 1,
+          "clicks": 0,
+          "cost_krw": 0,
+          "conversion_events": 0
+        }
+      ],
+      "summaries": [
+        {
+          "query": "얼음골사과즙",
+          "surface": "전체",
+          "impressions": 2,
+          "clicks": 0,
+          "cost_krw": 0,
+          "conversion_events": 0,
+          "ctr_pct": 0.0
+        },
+        {
+          "query": "얼음골사과즙",
+          "surface": "네이버 계열",
+          "impressions": 2,
+          "clicks": 0,
+          "cost_krw": 0,
+          "conversion_events": 0,
+          "ctr_pct": 0.0
+        },
+        {
+          "query": "청송사과즙",
+          "surface": "전체",
+          "impressions": 22,
+          "clicks": 0,
+          "cost_krw": 0,
+          "conversion_events": 0,
+          "ctr_pct": 0.0
+        },
+        {
+          "query": "청송사과즙",
+          "surface": "네이버 계열",
+          "impressions": 21,
+          "clicks": 0,
+          "cost_krw": 0,
+          "conversion_events": 0,
+          "ctr_pct": 0.0
+        },
+        {
+          "query": "청송사과즙",
+          "surface": "당근",
+          "impressions": 1,
+          "clicks": 0,
+          "cost_krw": 0,
+          "conversion_events": 0,
+          "ctr_pct": 0.0
+        },
+        {
+          "query": "형제농원",
+          "surface": "전체",
+          "impressions": 4,
+          "clicks": 0,
+          "cost_krw": 0,
+          "conversion_events": 0,
+          "ctr_pct": 0.0
+        },
+        {
+          "query": "형제농원",
+          "surface": "네이버 계열",
+          "impressions": 1,
+          "clicks": 0,
+          "cost_krw": 0,
+          "conversion_events": 0,
+          "ctr_pct": 0.0
+        },
+        {
+          "query": "형제농원",
+          "surface": "기타 외부",
+          "impressions": 2,
+          "clicks": 0,
+          "cost_krw": 0,
+          "conversion_events": 0,
+          "ctr_pct": 0.0
+        },
+        {
+          "query": "형제농원",
+          "surface": "당근",
+          "impressions": 1,
+          "clicks": 0,
+          "cost_krw": 0,
+          "conversion_events": 0,
+          "ctr_pct": 0.0
+        }
+      ],
+      "missing_term": "청송얼음골사과즙 행 없음. 0전환으로해석하지않음.",
+      "cutoff_reason": "다차원 보고서는 조회일 기준 전일까지.10/29당일행 미집계.10/28은제목변경전노출포함가능."
+    },
+    "limitations": [
+      "네이버 계열은 매체명에 네이버 포함으로 분류. 당근/그외외부와분리",
+      "과거광고그룹자료; 타깃상품단독귀속/고유사용자/재구매여부미확인",
+      "같은네이버통합검색모바일에서도청송얼음골13/75대청송사과즙4/167차이유지. 위치/경쟁/반복검색미통제."
+    ]
+  },
+  "title_trial": {
+    "day_of_change": {
+      "checked_at": "2026-10-29T00:37:53+09:00",
+      "period": [
+        "2026-10-28",
+        "2026-10-28"
+      ],
+      "title": "청송사과즙 얼음골 사과하나 120ml 50포",
+      "ad_id": "nad-a001-02-000000378841949",
+      "status": "운영 가능",
+      "impressions": 125,
+      "clicks": 0,
+      "cost_krw": 0,
+      "conversion_events": 0,
+      "revenue_krw": 0
+    },
+    "recent": {
+      "checked_at": "2026-10-29T00:39:25+09:00",
+      "period": [
+        "2026-10-28",
+        "2026-10-29"
+      ],
+      "title": "청송사과즙 얼음골 사과하나 120ml 50포",
+      "ad_id": "nad-a001-02-000000378841949",
+      "status": "운영 가능",
+      "impressions": 126,
+      "clicks": 0,
+      "cost_krw": 0,
+      "conversion_events": 0,
+      "revenue_krw": 0
+    },
+    "next_day_partial": {
+      "checked_at": "2026-10-29T00:41:22+09:00",
+      "period": [
+        "2026-10-29",
+        "2026-10-29"
+      ],
+      "title": "청송사과즙 얼음골 사과하나 120ml 50포",
+      "ad_id": "nad-a001-02-000000378841949",
+      "status": "운영 가능",
+      "impressions": 1,
+      "clicks": 0,
+      "cost_krw": 0,
+      "conversion_events": 0,
+      "revenue_krw": 0,
+      "evidence": "juice_live_title_today_2026-10-29.png"
+    },
+    "interpretation": "10/29당일1노출로제목변경이후실제노출확인. 클릭/전환0.10/28전체125노출은변경시각전노출분리불가. 효과우열판정불가."
+  },
+  "mobile_search": {
+    "url": "https://m.search.naver.com/search.naver?query=%EC%B2%AD%EC%86%A1%EC%82%AC%EA%B3%BC%EC%A6%99",
+    "date": "2026-10-29",
+    "viewport_css_px": {
+      "width": 390,
+      "height": 844
+    },
+    "observed_target": "네이버플러스스토어 로그인 맞춤쇼핑 영역의 일반상품카드. 광고표시없음.",
+    "ad_card_status": "현재 관찰 범위에서 타깃의 광고 카드 미확인. 전체 미노출 아님.",
+    "title_readability": "일반상품카드 제목은2줄로잘림.120ml50포표시는안보임.가격39900원은읽힘.광고제목의실제읽힘평가로대체하지않음.",
+    "ad_clicks": 0
+  },
+  "name_evidence": {
+    "query": "\"산지애\" \"사과하나\"",
+    "sources": [
+      {
+        "url": "https://www.sanjiae.com/shop/shopbrand.html?type=P&xcode=032",
+        "finding": "산지애 공식몰에서 산지애 사과하나 사과원액주스 상품명 사용 확인."
+      },
+      {
+        "url": "https://www.foodsafetykorea.go.kr/hilow/qfood/view.do?gram=200&nseq=397",
+        "finding": "식품안전나라에 산지애 사과하나 / 농업회사법인 청송애플식품(주),120mL 표시."
+      }
+    ],
+    "not_determined": [
+      "상표등록 여부",
+      "권리자·독점권 범위",
+      "친구상품 표기 사용의 적법성"
+    ],
+    "interpretation": "타 업체의 상품명 사용 근거만 확인. 사과하나가친구만의고유브랜드라고주장하지않음."
+  },
+  "manager_access": {
+    "url": "https://sell.smartstore.naver.com/#/sellers/join",
+    "status": "미확인",
+    "reason": "기존네이버간편로그인1회후 스마트스토어센터가입 화면으로연결. 관리자대시보드미진입.",
+    "not_inferred": "권한없음/초대미등록으로확정하지않음",
+    "signup_or_invite_actions": 0
+  },
+  "video_copy": {
+    "url": "https://smartstore.naver.com/threebrothersfarmm/products/11659930652",
+    "date": "2026-10-29",
+    "observed_themes": [
+      "출근시가방휴대의편의",
+      "파우치개봉후직접음용또는컵에따라음용"
+    ],
+    "short_quote": "그냥 입 대고 드셔도 되고",
+    "quote_context": "영상자막 일부; 영상속화자신원저장안함.현재파우치음용편의표현.",
+    "drafts": [
+      {
+        "placement": "광고홍보문구후보",
+        "text": "출근 가방에 쏙, 청송사과즙",
+        "status": "초안·미등록"
+      },
+      {
+        "placement": "상세첫화면제목",
+        "text": "한 포씩 챙기는 청송사과즙",
+        "status": "초안·미등록"
+      },
+      {
+        "placement": "상세첫화면설명",
+        "text": "120ml 파우치 50포 구성. 개봉해 바로 마시거나 컵에 따라 즐기세요.",
+        "status": "초안·미등록"
+      }
+    ],
+    "not_claimed": [
+      "어린이·고령자에대한보편적적합성",
+      "효능·건강우월성",
+      "영상후기만으로품질인증·무첨가·NFC입증"
+    ],
+    "live_ad_changes": false,
+    "evidence": "juice_live_video_caption_2026-10-29.png"
+  },
+  "decisions": {
+    "E01": {
+      "judgment": "부분 수용·구체화",
+      "reason": "모바일 맞춤일반상품카드와상품첫화면은확인.실제쇼핑광고카드는미확인으로남김.",
+      "next": "네이버통합검색쇼핑광고카드관찰은별도,일반카드를광고로대체금지."
+    },
+    "E02": {
+      "judgment": "부분 수용·근거 보강",
+      "reason": "지면×검색어실제조회가능.네이버만으로도11.86%대0.95%차이유지,같은통합검색모바일17.33%대2.40%차이유지.인지고객가설유지하되확정금지.",
+      "next": "현재제목유지·고유사용자/위치/실주문대조.사과하나고유브랜드판정대기."
+    },
+    "E03": {
+      "judgment": "수용·보강, 종료하지 않음",
+      "reason": "현재날짜/마감충돌유지.상품정보고시제조일2024-11-01이상품표2025-01-01과추가충돌. 현재 상세 라벨 제조원·판매원은 청송사과식품으로 상품표 제조원과도 다름.",
+      "next": "실제라벨/출고마감/제조원대조후정정.판매제품만료단정금지."
+    }
+  },
+  "completion_date_kst": "2026-10-29",
+  "validation": {
+    "historical_whitelist_rows": 55,
+    "recent_whitelist_rows": 9,
+    "query_totals_reconciled_to_previous_report": true,
+    "formula": "CTR (%) = clicks / impressions × 100",
+    "zero_scope": "네 검색어의 조회된 행 전환 합계는 0. 광고그룹 전체의 과거 전환 1건을 부정하는 값이 아님.",
+    "coverage": "4개 지정 검색어만 저장. 전체 검색어·구매자 정보는 수집·저장하지 않음.",
+    "screenshot_review": "날짜 필드·추가 고시·모바일 상세 첫 화면·원본 상세 라벨·10/29 제목 노출·영상 자막 캡처 육안 검수."
+  },
+  "reviewed_screenshots": [
+    "juice_live_product_fields_2026-10-28.png",
+    "juice_live_product_notice_2026-10-28.png",
+    "juice_live_mobile_detail_first_2026-10-28.png",
+    "juice_live_detail_label_2026-10-29.png",
+    "juice_live_title_today_2026-10-29.png",
+    "juice_live_video_caption_2026-10-29.png"
+  ]
+}

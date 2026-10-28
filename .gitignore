@@ -108,3 +108,12 @@ result/*
 
 # 분모·비교군을 검토한 EDA 재집계
 !result/juice_eda_decisions_2026-10-28.json
+
+# #80~82: 조회 전용 재확인, 비식별 자료와 검토한 캡처만 추적
+!result/juice_live_recheck_2026-10-28.json
+!result/juice_live_product_fields_2026-10-28.png
+!result/juice_live_product_notice_2026-10-28.png
+!result/juice_live_mobile_detail_first_2026-10-28.png
+!result/juice_live_detail_label_2026-10-29.png
+!result/juice_live_title_today_2026-10-29.png
+!result/juice_live_video_caption_2026-10-29.png
