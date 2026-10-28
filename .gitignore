@@ -70,6 +70,8 @@ result/*
 !result/juice_diagnostics_2026-10-28.json
 !result/juice_title_trial_2026-10-28.json
 !result/juice_title_trial_saved_2026-10-28.png
+!result/juice_seller_evidence_2026-10-28.json
+!result/juice_original_product_2026-10-28.webp
 
 # main 단일 브랜치: 공용 작업 규칙·인계 기록은 로컬에 보존한다.
 /AGENTS.md
