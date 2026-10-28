@@ -1,0 +1,152 @@
+{
+  "rechecked_on": "2026-10-28",
+  "period": [
+    "2025-11-01",
+    "2026-01-31"
+  ],
+  "source_files": [
+    "ads_media_2025-11-01_2026-01-31.json",
+    "ads_search_term_clicks_2025-11-01_2026-01-31.csv",
+    "juice_own_listing_2026-10-27.json",
+    "juice_seller_evidence_2026-10-28.json"
+  ],
+  "media_row_count": 51,
+  "total": {
+    "impressions": 26783,
+    "clicks": 112,
+    "cost_krw": 8481,
+    "conversion_events": 1
+  },
+  "devices": {
+    "모바일": {
+      "impressions": 25657,
+      "clicks": 104,
+      "cost_krw": 7964,
+      "conversion_events": 1,
+      "ctr_pct": 0.4053474685271076
+    },
+    "PC": {
+      "impressions": 1126,
+      "clicks": 8,
+      "cost_krw": 517,
+      "conversion_events": 0,
+      "ctr_pct": 0.7104795737122558
+    }
+  },
+  "device_channel": [
+    {
+      "device": "모바일",
+      "channel": "콘텐츠",
+      "impressions": 5146,
+      "clicks": 6,
+      "cost_krw": 616,
+      "conversion_events": 0,
+      "ctr_pct": 0.1165954139137194
+    },
+    {
+      "device": "PC",
+      "channel": "콘텐츠",
+      "impressions": 421,
+      "clicks": 2,
+      "cost_krw": 187,
+      "conversion_events": 0,
+      "ctr_pct": 0.4750593824228029
+    },
+    {
+      "device": "PC",
+      "channel": "네이버 검색",
+      "impressions": 660,
+      "clicks": 6,
+      "cost_krw": 330,
+      "conversion_events": 0,
+      "ctr_pct": 0.9090909090909091
+    },
+    {
+      "device": "모바일",
+      "channel": "네이버 검색",
+      "impressions": 7797,
+      "clicks": 62,
+      "cost_krw": 4521,
+      "conversion_events": 1,
+      "ctr_pct": 0.7951776324227268
+    },
+    {
+      "device": "모바일",
+      "channel": "외부 검색",
+      "impressions": 12714,
+      "clicks": 36,
+      "cost_krw": 2827,
+      "conversion_events": 0,
+      "ctr_pct": 0.28315243039169424
+    },
+    {
+      "device": "PC",
+      "channel": "외부 검색",
+      "impressions": 45,
+      "clicks": 0,
+      "cost_krw": 0,
+      "conversion_events": 0,
+      "ctr_pct": 0.0
+    }
+  ],
+  "mobile_impression_share_pct": 95.79584064518538,
+  "mobile_click_share_pct": 92.85714285714286,
+  "click_share_minus_impression_share_pp": -2.938697788042518,
+  "selected_queries": [
+    {
+      "query": "청송사과즙",
+      "impressions": 8015,
+      "clicks": 44,
+      "ctr_pct": 0.5489706799750468,
+      "cost_krw": 3630,
+      "conversion_events": 0
+    },
+    {
+      "query": "청송얼음골사과즙",
+      "impressions": 177,
+      "clicks": 21,
+      "ctr_pct": 11.864406779661017,
+      "cost_krw": 1155,
+      "conversion_events": 0
+    },
+    {
+      "query": "형제농원",
+      "impressions": 3896,
+      "clicks": 1,
+      "ctr_pct": 0.025667351129363452,
+      "cost_krw": 55,
+      "conversion_events": 0
+    }
+  ],
+  "query_table_scope": {
+    "rows": 23,
+    "clicked_queries_only": true,
+    "totals": {
+      "노출": 15283,
+      "클릭": 104,
+      "광고비(원)": 7678,
+      "전체전환": 1
+    },
+    "all_search_totals": {
+      "impressions": 21216,
+      "clicks": 104,
+      "cost_krw": 7678,
+      "conversion_events": 1
+    }
+  },
+  "single_identity_query_event": {
+    "query": "얼음골사과하나즙",
+    "impressions": 1,
+    "clicks": 1,
+    "conversion_events": 1,
+    "interpretation": "단일 사례; 승자·1클릭 구매율·반복 가능성 판단 불가"
+  },
+  "listing_as_of": "2026-10-27",
+  "limitations": [
+    "광고그룹 과거 실적; 당시 상품구성 및 타깃 단독귀속 미확인",
+    "노출·클릭은 고유 사용자 수가 아님",
+    "검색어 리포트는 클릭 있는 검색어만 포함; 미클릭 검색어 분포는 미확인",
+    "기기·검색어·매체 비교는 무작위 실험 아님. 위치·경쟁·의도·표본수 차이가 있음",
+    "페이지 문제는 10/27~28 저장 관찰. 현재 페이지·실제 새 로트 상태를 새로 확인한 것이 아님"
+  ]
+}
