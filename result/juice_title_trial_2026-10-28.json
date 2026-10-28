@@ -1,0 +1,36 @@
+{
+  "trial": "J-TITLE-02",
+  "status": "saved_operating_ui",
+  "date": "2026-10-28 KST",
+  "ad": "nad-a001-02-000000378841949",
+  "before_title": "청송사과즙 120ml 50포 삼형제농원",
+  "candidate_title": "청송사과즙 얼음골 사과하나 120ml 50포",
+  "baseline": {
+    "period": [
+      "2026-10-21",
+      "2026-10-27"
+    ],
+    "impressions": 623,
+    "clicks": 1,
+    "cost_including_vat": 110,
+    "conversion_events": 0
+  },
+  "price": 39900,
+  "bid_ex_vat": 100,
+  "daily_cap": 10000,
+  "method": "순차 관찰, 무작위 A/B 아님. 제목만 변경, 확장문구·사진·가격·입찰·예산 유지.",
+  "after_title": "청송사과즙 얼음골 사과하나 120ml 50포",
+  "advoost_opt_in": false,
+  "catalog_findings": {
+    "brand": "미입력",
+    "manufacturer": "미입력",
+    "category": "식품 > 건강식품 > 건강즙/과일즙 > 사과즙"
+  },
+  "first_actual_impression_after_change": false,
+  "review_note": "수정 후 소재 목록에서 새 제목과 운영 가능 표시 확인. 실노출·성과는 미확인.",
+  "post_change_diagnostic": {
+    "keyword": "청송얼음골사과즙",
+    "result": "광고가 노출 가능 상태이고, 키워드와 소재 간 매칭 힌트가 존재하는지 확인해주세요. 그럼에도 불구하고 최대 2시간 이상 미노출이 지속될 경우 채팅상담을 통해서 문의해주세요.",
+    "interpretation": "제목 변경 직후 매칭 개선 입증 불가. 확정 노출 가능/불가 또는 실제 검색 노출로 해석하지 않음."
+  }
+}

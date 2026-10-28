@@ -39,7 +39,15 @@ document = '\n'.join(parts)
 price_update = ROOT / 'scripts' / 'client_price_update_section.html'
 if price_update.exists():
     document = document.replace('</section>', '</section>' + price_update.read_text(encoding='utf-8'), 1)
+market_update = ROOT / 'scripts' / 'shopping_market_section.html'
+if market_update.exists():
+    document = document.replace('</section>', '</section>' + market_update.read_text(encoding='utf-8'), 1)
 for name in ['apple_juice_analysis_2026-10-20.md', 'juice_trial_refresh_2026-10-27.json']:
     document = document.replace(f'href="{name}"', f'href="https://github.com/tabjun/advertisement_apple/blob/main/result/{name}"')
+document = document.replace('삼형제농원 · 2026.10.27 · 클라이언트 설명 자료', '삼형제농원 · 2026.10.28 갱신 · 클라이언트 설명 자료')
+document = document.replace('LIVE STATUS · J-COPY-01', '10/27 과거 기록 · J-COPY-01 · 현재 제목 시험은 상단 참조')
+document = document.replace('첫 B 노출을 확인한 뒤 완료된 3일의 노출·클릭·클릭률을 운영 점검합니다.', '이 절은 10/27 당시 문구 시험 계획입니다. 10/28 제목 변경으로 문구 단독 비교는 종료했으며, 후속 점검은 상단 J-TITLE-02 계획을 따릅니다.')
+document = document.replace('<td>현재 상태</td><td>OFF</td>', '<td>10/27 상태</td><td>OFF</td>')
+document = document.replace('현재 문구 시험 기록, 사진 변경은 뒤로', '현재 제목 시험 기록, 사진 변경은 뒤로')
 (OUT/'juice_client_visual_2026-10-27.html').write_text(document,encoding='utf-8')
 print('Created portable client HTML, 3 photo-based ads, summary and 11 evidence charts.')
