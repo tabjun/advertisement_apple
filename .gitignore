@@ -105,3 +105,6 @@ result/*
 
 # 검토한 모바일 기기별 재집계
 !result/juice_mobile_priority_2026-10-28.json
+
+# 분모·비교군을 검토한 EDA 재집계
+!result/juice_eda_decisions_2026-10-28.json
