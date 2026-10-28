@@ -26,6 +26,7 @@ wheels/
 # 편집기·에이전트 로컬 설정
 .vscode/
 .codex/
+/.codex-build/
 # .agents/는 로컬 설정이라 무시하되, 프로젝트 스킬 원본(.agents/skills/)은 Codex·Claude 공유용으로 추적한다(2026-10-18).
 .agents/*
 !.agents/skills/
@@ -93,3 +94,11 @@ result/*
 *.docs
 *.xls*
 *.jpeg
+
+# 검토한 클라이언트용 5장 보고서
+/.chart-data-*/
+!result/client_brief_2026-10-28/
+!result/client_brief_2026-10-28/*.pdf
+!result/client_brief_2026-10-28/*.pptx
+!result/client_brief_2026-10-28/*.png
+!result/client_brief_2026-10-28/index.html
