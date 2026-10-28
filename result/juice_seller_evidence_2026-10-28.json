@@ -1,0 +1,108 @@
+{
+  "checked_kst": "2026-10-28",
+  "product": "11659930652",
+  "sources": {
+    "naver": "https://smartstore.naver.com/threebrothersfarmm/products/11659930652",
+    "coupang": "https://www.coupang.com/vp/products/8698914518",
+    "daangn": "https://www.daangn.com/kr/local-profile/삼형제농원-y1s8f2wxd7fq/",
+    "farm_post": "https://www.daangn.com/kr/business-post/직접-키운-사과로-만든-사과즙-판매-시작합니다-ta99mq1jmeri/",
+    "process_post": "https://www.daangn.com/kr/business-post/청송-삼형제농원-서리-사과즙-설탕x-100-순수-사과-착즙-25kcvvtwzx8u/"
+  },
+  "identity": {
+    "naver_coupang": "상호 삼형제농원·대표자 김규현 일치, 상품명/120ml50포/실물포장 일치. 네이버 사업자번호 원문은 캡차로 미조회; 번호 완전대조는 미완료.",
+    "daangn": "당근 업체에서 m.smartstore.naver.com/threebrothersfarmm 직접 연결, 청송군 주왕산면 소재지와 판매상품 일치.",
+    "excluded": "충남 공주시 신풍면의 동명 삼형제농원과 파주 꽃집, 청송 현서면 동명업체 제외."
+  },
+  "product_label": {
+    "name": "청송얼음골 사과즙",
+    "food_type": "과·채주스",
+    "ingredients": "사과 100% (국내산 청송군)",
+    "volume_ml": 120,
+    "packs": 50,
+    "total_l": 6,
+    "manufacturer_on_detail_label": "청송사과식품",
+    "seller_on_detail_label": "청송사과식품",
+    "manufacturer_field_naver": "청송 삼형제농원",
+    "brand_field_naver": "자체제작 상품",
+    "sugars_per_120ml_g": 15.58,
+    "calories_per_120ml": 70.79,
+    "limitation": "공개 상세이미지의 표시값. 실제 새 출고로트 라벨/원재료표 최종대조 필요. 무설탕/당류0g으로 전용하지 않음."
+  },
+  "seller_published_claims": [
+    {
+      "claim": "청송 얼음골에서 삼형제가 직접 재배한 사과 사용",
+      "source": "naver store introduction + farm_post + daangn price section",
+      "use": "산지/농가소개에 사용; 당해출고로트 확인 필요"
+    },
+    {
+      "claim": "저온착즙",
+      "source": "coupang seller Q&A 2025-07-05 + process_post",
+      "use": "판매자 게시 근거 확보; 현재 공정온도/살균방식 확인 전 구체 온도나 영양보존 우월성 주장 제외"
+    },
+    {
+      "claim": "기계 세척",
+      "source": "coupang seller Q&A 2025-07-05",
+      "use": "공정 안내의 출처확보; 살균/무균으로 확대 금지"
+    },
+    {
+      "claim": "설탕·물엿·꿀을 넣지 않고 사과 사용",
+      "source": "process_post + naver detail ingredients",
+      "use": "현출고 원재료대조 뒤 구체 첨가 여부 표현. 당류0/무설탕과 혼동 금지"
+    },
+    {
+      "claim": "NFC·3대·4만평·15Brix·친환경 재배·GAP",
+      "source": "naver long detail image + GAP field 1004171",
+      "use": "현재로트/공정/인증 유효성·범위/원물과즙 구분 확인 전 광고의 확정 소구에서 보류. 부사15Brix는 원물이며 사과즙15Brix 보장 아님."
+    }
+  ],
+  "cross_channel_observation": {
+    "naver": {
+      "price": 39900,
+      "reviews": 1,
+      "scope": "해당 상품 공개페이지"
+    },
+    "coupang": {
+      "price": 39900,
+      "reviews_product_total": 104,
+      "scope": "동일상품 통합리뷰; 판매자 전용104리뷰/주문수 아님. 검색엔진의5개월전24990원/85리뷰와 구분."
+    },
+    "daangn": {
+      "regulars": 986,
+      "reviews_profile_total": 325,
+      "rating_profile": 4.7,
+      "scope": "업체 전체; 생과와즙혼재. 사과즙325리뷰 아님. 가격표24900원부터/상품카드39900원이 공존해 최종가격단정안함."
+    }
+  },
+  "review_sample": {
+    "selection": "쿠팡 베스트순 첫페이지10개, 각 판매자 삼형제농원·50개120ml 표기 확인. 개인정보/원문전재 제외, 요약만 저장. 대표성/전체불만율 추정금지.",
+    "positive_themes": [
+      "진한 사과맛·깔끔한 맛",
+      "한 포씩 마시는 편의",
+      "가족과 함께 마시거나 부모님께 보내는 용도"
+    ],
+    "friction_themes": [
+      {
+        "date": "2025-11-05",
+        "theme": "일부 파우치 내용량이 적게 느껴진다는 지적",
+        "action": "포장크기로용량확정불가. 실제충전량/검수·표시120ml대조"
+      },
+      {
+        "date": "2025-06-26",
+        "theme": "기대했던 생사과 같은 맛과 다르다는 의견",
+        "action": "실제착즙·살균·맛특성을설명. 가열여부/온도를후기로확정하지않음"
+      },
+      {
+        "date": "2026-02-27",
+        "theme": "장기간 배송 대기 지적",
+        "action": "출고로트/출고가능일·휴무/택배안내정합성점검"
+      }
+    ]
+  },
+  "conflicts": [
+    "네이버상세12시전당일발송 대 구조화배송/당근공지11시 마감",
+    "네이버제조일2025-01-01·유효일2026-12-31 대 소비기한2025-12-31",
+    "제조사필드청송삼형제농원 대 상세라벨청송사과식품. 당근상호변경예정설명과연결되지만 공식정보/새라벨확인필요",
+    "이전광고소재상세브랜드/제조사미입력 표시는 해당광고필드관찰일뿐 네이버원상품정보부재로일반화하면안됨"
+  ],
+  "ad_direction": "가격최상급표현 제외. 청송사과→청송얼음골산지/직접재배농가→사과100%→사과하나포장→120ml50포→공정/출고안내 연결."
+}
