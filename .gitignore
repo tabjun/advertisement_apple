@@ -62,6 +62,14 @@ result/*
 !result/juice_own_listing_2026-10-27.json
 !result/apple_juice_live_2026-10-27.json
 !result/juice_demand_trend_ui_2026-10-27.png
+!result/juice_market_serp_2026-10-27.json
+!result/juice_plus_serp_2026-10-27.json
+!result/juice_keyword_cells_2026-10-28.json
+!result/juice_keyword_priority_2026-10-28.csv
+!result/juice_market_reviewed_2026-10-28.json
+!result/juice_diagnostics_2026-10-28.json
+!result/juice_title_trial_2026-10-28.json
+!result/juice_title_trial_saved_2026-10-28.png
 
 # main 단일 브랜치: 공용 작업 규칙·인계 기록은 로컬에 보존한다.
 /AGENTS.md
