@@ -102,3 +102,6 @@ result/*
 !result/client_brief_2026-10-28/*.pptx
 !result/client_brief_2026-10-28/*.png
 !result/client_brief_2026-10-28/index.html
+
+# 검토한 모바일 기기별 재집계
+!result/juice_mobile_priority_2026-10-28.json
