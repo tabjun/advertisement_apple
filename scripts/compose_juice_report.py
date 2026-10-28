@@ -227,6 +227,11 @@ report=f'''# 청송사과즙은 노출 확대와 함께 가격·상품 신뢰를
 if trial_file.exists():
     report=report.replace('**홍보문구는 실제 노출을 시작했습니다.** 10/27 조회에서 운영 가능·23노출·0클릭입니다. 성과 판단에는 너무 적습니다.', '**첫 문구 시험을 실제 가동했습니다.** 10/27 22:06경 기존A의43노출·0클릭을 보존해 일시중지하고 심사통과한B 청송사과즙120ml만 ON으로 전환했습니다. B첫실제노출/효과는아직미확인입니다.')
     report=report.replace('## 8. 10월27일 현재 적용 상태와 출시 전 수정 우선순위','## 8. 10월27일 #54 분석 조회 당시 상태와 출시 전 수정 우선순위 (후속 시험은 상단 참조)')
+# Keep the latest candidate register ahead of older trial snapshots.
+candidates_path=Path(__file__).parent/'growth_candidates_section.md'
+if candidates_path.exists():
+    insertion=report.index('\n\n')
+    report=report[:insertion]+'\n\n'+candidates_path.read_text(encoding='utf-8')+report[insertion:]
 # GFM interprets paired single tildes as strikethrough; use a range dash.
 path.write_text(report.replace('~','–'),encoding='utf-8')
 print(f'Updated {path.name}: {len(c)} competitors, 11 charts plus market-trend evidence')

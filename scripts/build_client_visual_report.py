@@ -45,6 +45,9 @@ if market_update.exists():
 seller_update = ROOT / 'scripts' / 'seller_story_section.html'
 if seller_update.exists():
     document = document.replace('</section>', '</section>' + seller_update.read_text(encoding='utf-8'), 1)
+candidates_update = ROOT / 'scripts' / 'growth_candidates_section.html'
+if candidates_update.exists():
+    document = document.replace('</section>', '</section>' + candidates_update.read_text(encoding='utf-8'), 1)
 for name in ['apple_juice_analysis_2026-10-20.md', 'juice_trial_refresh_2026-10-27.json']:
     document = document.replace(f'href="{name}"', f'href="https://github.com/tabjun/advertisement_apple/blob/main/result/{name}"')
 document = document.replace('삼형제농원 · 2026.10.27 · 클라이언트 설명 자료', '삼형제농원 · 2026.10.28 갱신 · 클라이언트 설명 자료')
