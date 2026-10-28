@@ -1,0 +1,38 @@
+{
+  "checked_on": "2026-10-28",
+  "source": "result/ads_media_2025-11-01_2026-01-31.json",
+  "period": [
+    "2025-11-01",
+    "2026-01-31"
+  ],
+  "scope": "group media period aggregate, daily dimension removed, unsaved report only",
+  "row_count": 51,
+  "devices": {
+    "모바일": {
+      "impressions": 25657,
+      "clicks": 104,
+      "cost_krw": 7964,
+      "conversion_events": 1
+    },
+    "PC": {
+      "impressions": 1126,
+      "clicks": 8,
+      "cost_krw": 517,
+      "conversion_events": 0
+    }
+  },
+  "total": {
+    "impressions": 26783,
+    "clicks": 112,
+    "cost_krw": 8481,
+    "conversion_events": 1
+  },
+  "mobile_click_share_pct": 92.85714285714286,
+  "mobile_cost_share_pct": 93.90402075226977,
+  "limits": [
+    "과거 해당 광고그룹 집계이며 현재 스토어 전체 방문자·구매자의 휴대폰 사용률이 아님",
+    "과거 기간의 상품 구성·타깃 상품 단독 귀속은 미확인",
+    "총 전환 이벤트 1건으로 기기별 판매 우열을 판정할 수 없음",
+    "모바일 예산 증액·PC 중단의 근거로 단독 사용하지 않음"
+  ]
+}
