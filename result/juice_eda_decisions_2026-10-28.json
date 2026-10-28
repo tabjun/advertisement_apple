@@ -148,5 +148,265 @@
     "검색어 리포트는 클릭 있는 검색어만 포함; 미클릭 검색어 분포는 미확인",
     "기기·검색어·매체 비교는 무작위 실험 아님. 위치·경쟁·의도·표본수 차이가 있음",
     "페이지 문제는 10/27~28 저장 관찰. 현재 페이지·실제 새 로트 상태를 새로 확인한 것이 아님"
-  ]
+  ],
+  "claude_75": {
+    "session": "Claude-20261028-75",
+    "mobile_surfaces": [
+      {
+        "surface": "네이버 통합검색",
+        "device": "모바일",
+        "impressions": 4539,
+        "clicks": 47,
+        "cost_krw": 3432,
+        "conversion_events": 1,
+        "ctr_pct": 1.03547036792245,
+        "avg_rank_imp_weighted": 3.4
+      },
+      {
+        "surface": "당근마켓 검색",
+        "device": "모바일",
+        "impressions": 12546,
+        "clicks": 34,
+        "cost_krw": 2640,
+        "conversion_events": 0,
+        "ctr_pct": 0.27100271002710025,
+        "avg_rank_imp_weighted": 7.6
+      },
+      {
+        "surface": "네이버 쇼핑·플러스스토어 탭",
+        "device": "모바일",
+        "impressions": 1567,
+        "clicks": 10,
+        "cost_krw": 814,
+        "conversion_events": 0,
+        "ctr_pct": 0.6381620931716656,
+        "avg_rank_imp_weighted": 8.4
+      },
+      {
+        "surface": "네이버 콘텐츠·추천 지면",
+        "device": "모바일",
+        "impressions": 5146,
+        "clicks": 6,
+        "cost_krw": 616,
+        "conversion_events": 0,
+        "ctr_pct": 0.1165954139137194,
+        "avg_rank_imp_weighted": 8.1
+      },
+      {
+        "surface": "네이버 통합검색 내 플러스스토어 영역",
+        "device": "모바일",
+        "impressions": 1691,
+        "clicks": 5,
+        "cost_krw": 275,
+        "conversion_events": 0,
+        "ctr_pct": 0.29568302779420463,
+        "avg_rank_imp_weighted": 1.0
+      },
+      {
+        "surface": "기타 외부 검색",
+        "device": "모바일",
+        "impressions": 168,
+        "clicks": 2,
+        "cost_krw": 187,
+        "conversion_events": 0,
+        "ctr_pct": 1.1904761904761905,
+        "avg_rank_imp_weighted": 3.8
+      },
+      {
+        "surface": "네이버 통합검색",
+        "device": "PC",
+        "impressions": 287,
+        "clicks": 5,
+        "cost_krw": 275,
+        "conversion_events": 0,
+        "ctr_pct": 1.7421602787456445,
+        "avg_rank_imp_weighted": 1.7
+      },
+      {
+        "surface": "네이버 콘텐츠·추천 지면",
+        "device": "PC",
+        "impressions": 421,
+        "clicks": 2,
+        "cost_krw": 187,
+        "conversion_events": 0,
+        "ctr_pct": 0.4750593824228029,
+        "avg_rank_imp_weighted": 4.4
+      },
+      {
+        "surface": "네이버 쇼핑·플러스스토어 탭",
+        "device": "PC",
+        "impressions": 168,
+        "clicks": 1,
+        "cost_krw": 55,
+        "conversion_events": 0,
+        "ctr_pct": 0.5952380952380952,
+        "avg_rank_imp_weighted": 7.8
+      },
+      {
+        "surface": "네이버 통합검색 내 플러스스토어 영역",
+        "device": "PC",
+        "impressions": 205,
+        "clicks": 0,
+        "cost_krw": 0,
+        "conversion_events": 0,
+        "ctr_pct": 0.0,
+        "avg_rank_imp_weighted": 1.0
+      },
+      {
+        "surface": "기타 외부 검색",
+        "device": "PC",
+        "impressions": 45,
+        "clicks": 0,
+        "cost_krw": 0,
+        "conversion_events": 0,
+        "ctr_pct": 0.0,
+        "avg_rank_imp_weighted": 4.1
+      }
+    ],
+    "mobile_click_split": {
+      "네이버 통합검색": 47,
+      "당근마켓 검색": 34,
+      "네이버 쇼핑·플러스스토어 탭": 10,
+      "네이버 콘텐츠·추천 지면": 6,
+      "네이버 통합검색 내 플러스스토어 영역": 5,
+      "기타 외부 검색": 2
+    },
+    "mobile_impression_split": {
+      "네이버 통합검색": 4539,
+      "당근마켓 검색": 12546,
+      "네이버 쇼핑·플러스스토어 탭": 1567,
+      "네이버 콘텐츠·추천 지면": 5146,
+      "네이버 통합검색 내 플러스스토어 영역": 1691,
+      "기타 외부 검색": 168
+    },
+    "query_mix_bound": {
+      "clicked_query_impressions": 15283,
+      "naver_search_impressions": 8457,
+      "external_search_impressions": 12759,
+      "min_external_impressions_in_clicked_queries": 6826,
+      "top3_queries": [
+        "청송사과즙",
+        "형제농원",
+        "얼음골사과즙"
+      ],
+      "top3_impressions": 14585,
+      "min_external_share_of_top3_pct": 42.01576962632842,
+      "logic": "클릭된 검색어 노출이 네이버 검색 매체 전체 노출보다 크므로 차이만큼은 반드시 외부 검색(대부분 당근) 노출이다. 검색어x매체 교차표는 없다."
+    },
+    "query_volume_check": [
+      {
+        "query": "청송사과즙",
+        "ad_impressions_3m": 8015,
+        "ad_impressions_per_month": 2672,
+        "keyword_tool_monthly_pc": "80",
+        "keyword_tool_monthly_mobile": "630",
+        "keyword_tool_monthly_upper": 710,
+        "period_note": "키워드도구 값은 2026-10 조회 시점의 최근 월간값, 광고는 2025-11~2026-01"
+      },
+      {
+        "query": "얼음골사과즙",
+        "ad_impressions_3m": 2674,
+        "ad_impressions_per_month": 891,
+        "keyword_tool_monthly_pc": "50",
+        "keyword_tool_monthly_mobile": "420",
+        "keyword_tool_monthly_upper": 470,
+        "period_note": "키워드도구 값은 2026-10 조회 시점의 최근 월간값, 광고는 2025-11~2026-01"
+      },
+      {
+        "query": "청송얼음골사과즙",
+        "ad_impressions_3m": 177,
+        "ad_impressions_per_month": 59,
+        "keyword_tool_monthly_pc": "< 10",
+        "keyword_tool_monthly_mobile": "< 10",
+        "keyword_tool_monthly_upper": 18,
+        "period_note": "키워드도구 값은 2026-10 조회 시점의 최근 월간값, 광고는 2025-11~2026-01"
+      }
+    ],
+    "name_collision": {
+      "clicked_query_other_region": [
+        "얼음골사과밀양주스",
+        "청도형제사과즙"
+      ],
+      "keyword_tool_other_brand": [
+        "산지애사과하나"
+      ],
+      "note": "얼음골은 밀양 얼음골사과와 겹치고, 사과하나는 다른 업체명과 결합된 검색어가 있다. 실제 의도 비중은 미확인."
+    },
+    "price_signal": {
+      "revenue_per_event": [
+        {
+          "month": "2025.05",
+          "conversion_events": 1,
+          "revenue_krw": 24900,
+          "revenue_per_event": 24900
+        },
+        {
+          "month": "2025.06",
+          "conversion_events": 1,
+          "revenue_krw": 24900,
+          "revenue_per_event": 24900
+        },
+        {
+          "month": "2026.01",
+          "conversion_events": 1,
+          "revenue_krw": 28900,
+          "revenue_per_event": 28900
+        },
+        {
+          "month": "2026.02",
+          "conversion_events": 1,
+          "revenue_krw": 29900,
+          "revenue_per_event": 29900
+        },
+        {
+          "month": "2026.03",
+          "conversion_events": 3,
+          "revenue_krw": 99800,
+          "revenue_per_event": 33267
+        },
+        {
+          "month": "2026.04",
+          "conversion_events": 1,
+          "revenue_krw": 40000,
+          "revenue_per_event": 40000
+        },
+        {
+          "month": "2026.05",
+          "conversion_events": 2,
+          "revenue_krw": 69900,
+          "revenue_per_event": 34950
+        }
+      ],
+      "apr_may_event_rate": 0.05555555555555555,
+      "clicks_since_2026_09": 26,
+      "events_since_2026_09": 0,
+      "prob_zero_if_apr_may_rate": 0.22624908064934549,
+      "note": "전환당 귀속매출이 24,900->29,900->40,000원대로 바뀜. 옵션/가격 이력 미확인. 9~10월 무전환은 4~5월 비율이 유지돼도 나올 수 있어 가격 탓으로 판정하지 않음."
+    },
+    "listing_dates": {
+      "manufactured": "2025-01-01",
+      "valid": "2026-12-31",
+      "expiry": "2025-12-31",
+      "all_year_boundary": true,
+      "shipping_display": "오늘출발11:00 마감, 지금결제시10/28발송예정",
+      "seller_conflicts": [
+        "네이버상세12시전당일발송 대 구조화배송/당근공지11시 마감",
+        "네이버제조일2025-01-01·유효일2026-12-31 대 소비기한2025-12-31"
+      ],
+      "related_review_friction": [
+        {
+          "date": "2026-02-27",
+          "theme": "장기간 배송 대기 지적",
+          "action": "출고로트/출고가능일·휴무/택배안내정합성점검"
+        }
+      ],
+      "current_screen_rechecked": false,
+      "reason_not_rechecked": "2026-10-28 Claude Code 세션에서 smartstore.naver.com 접속이 도구 안전 제한으로 거부됨"
+    },
+    "verdicts": {
+      "E01": "부분 수용: 모바일 효율우위 기각은 수용. 점검 단위를 기기에서 지면(네이버 통합검색 모바일 / 당근 / 쇼핑탭)으로 변경",
+      "E02": "부분 수용: 제목 재변경 금지와 실적 회수는 수용. 11.86% 대 0.55% 비교는 지면 혼합과 검색량 불일치 때문에 의도 차이의 근거로 약함",
+      "E03": "수용·보강: 세 날짜가 모두 연초/연말 값이라 실제 로트보다 미갱신 기본값 가능성. 현재 화면 미재확인"
+    }
+  }
 }
