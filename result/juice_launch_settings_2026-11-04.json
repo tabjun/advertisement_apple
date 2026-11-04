@@ -1,6 +1,9 @@
 {
   "prepared_on": "2026-11-04",
-  "request": 86,
+  "request": [
+    86,
+    87
+  ],
   "session": "Claude-20261104-86",
   "status": "approval_pending_local_only",
   "applied_live": false,
@@ -12,9 +15,18 @@
     "current_2026-10-19": "청송 얼음골 사과주스 사과즙 생과 착즙 무첨가 삼형제농원",
     "final_candidate": "청송사과즙 얼음골 120ml 50포 삼형제농원",
     "length_with_spaces": 25,
-    "excluded_terms": ["사과하나", "사과주스", "생과", "착즙", "무첨가"],
+    "excluded_terms": [
+      "사과하나",
+      "사과주스",
+      "생과",
+      "착즙",
+      "무첨가"
+    ],
     "excluded_reason": "사과하나=타사 상품명 사용 확인(10/29); 즙/주스 중복; 증빙 없는 표현 제거",
-    "apply_after": ["T0 정정", "최신 등록화면 글자수·금지어 확인"]
+    "apply_after": [
+      "T0 정정",
+      "최신 등록화면 글자수·금지어 확인"
+    ]
   },
   "ad_title": {
     "current_since_2026-10-28": "청송사과즙 얼음골 사과하나 120ml 50포",
@@ -22,72 +34,248 @@
     "reason": "#75 E02: 변경 후 실적 회수 전 재변경 금지"
   },
   "extension_copy": {
-    "running": {"short": "청송사과즙 120ml", "long": "청송사과즙 120ml 50포, 삼형제농원", "id": "J-COPY-01 B"},
+    "running": {
+      "short": "청송사과즙 120ml",
+      "long": "청송사과즙 120ml 50포, 삼형제농원",
+      "id": "J-COPY-01 B"
+    },
     "candidates": [
-      {"id": "C1", "short": "가방에 쏙 청송사과즙", "long": "출근 가방에 쏙, 청송사과즙 120ml 50포", "basis": "상품 영상 자막(휴대·바로 음용)"},
-      {"id": "C2", "short": "청송사과즙 50포", "long": "청송사과즙 120ml 50포, 총 6L 한 박스", "basis": "실제 구성"}
+      {
+        "id": "C1",
+        "short": "가방에 쏙 청송사과즙",
+        "long": "출근 가방에 쏙, 청송사과즙 120ml 50포",
+        "basis": "상품 영상 자막(휴대·바로 음용)"
+      },
+      {
+        "id": "C2",
+        "short": "청송사과즙 50포",
+        "long": "청송사과즙 120ml 50포, 총 6L 한 박스",
+        "basis": "실제 구성"
+      }
     ],
-    "limits_recorded_2026-10-28": {"short_max": 10, "long_max": 30},
-    "forbidden": ["최저가", "할인 강조", "효능", "어린이/고령자 적합성", "NFC/무첨가/당도 단정"]
+    "limits_recorded_2026-10-28": {
+      "short_max": 10,
+      "long_max": 30
+    },
+    "forbidden": [
+      "최저가",
+      "할인 강조",
+      "효능",
+      "어린이/고령자 적합성",
+      "NFC/무첨가/당도 단정"
+    ]
   },
   "main_image": {
     "source_photo": "result/juice_original_product_2026-10-28.webp",
     "variants": [
-      {"id": "A", "name": "파우치 중심", "spec": "파우치 1~3개 세워 라벨 정면, 흰 배경, 1000x1000 이상, 문자/스티커 없음"},
-      {"id": "B", "name": "박스+파우치", "spec": "크림색 손잡이 박스 + 파우치 3개, 흰 배경, 정사각"}
+      {
+        "id": "A",
+        "name": "파우치 중심",
+        "spec": "파우치 1~3개 세워 라벨 정면, 흰 배경, 1000x1000 이상, 문자/스티커 없음"
+      },
+      {
+        "id": "B",
+        "name": "박스+파우치",
+        "spec": "크림색 손잡이 박스 + 파우치 3개, 흰 배경, 정사각"
+      }
     ],
-    "ai_mockups_not_for_listing": ["juice_real_ad_01_2026-10-27.png", "juice_real_ad_02_2026-10-27.png", "juice_real_ad_03_2026-10-27.png"],
-    "check_before_apply": ["대표이미지 최신 규정", "광고용 이미지 별도 등록 가능 여부"]
+    "ai_mockups_not_for_listing": [
+      "juice_real_ad_01_2026-10-27.png",
+      "juice_real_ad_02_2026-10-27.png",
+      "juice_real_ad_03_2026-10-27.png"
+    ],
+    "check_before_apply": [
+      "대표이미지 최신 규정",
+      "광고용 이미지 별도 등록 가능 여부"
+    ]
   },
   "mobile_first_screen": {
     "mockup": "result/juice_mobile_first_screen_2026-11-04.html",
-    "order": ["사진", "제목", "한 줄 요약", "사실 3줄(원재료·구성·출고)", "가격·배송", "날짜(실물 확인 후)", "음용 안내"],
-    "fill_before_apply": ["출고 마감 11시/12시", "제조일", "소비기한", "충전 검수 방식", "1인1개 제한 의도"]
+    "order": [
+      "사진",
+      "제목",
+      "한 줄 요약",
+      "사실 3줄(원재료·구성·출고)",
+      "가격·배송",
+      "날짜(실물 확인 후)",
+      "음용 안내"
+    ],
+    "fill_before_apply": [
+      "제조일",
+      "소비기한",
+      "충전 검수 방식",
+      "1인1개 제한 해제 여부"
+    ]
   },
   "video_15s": {
     "format": "9:16 세로, 자막 중심",
     "scenes": [
-      {"t": "0-3", "shot": "가방에 파우치 넣는 손", "caption": "출근 가방에 쏙"},
-      {"t": "3-7", "shot": "파우치 라벨 클로즈업", "caption": "청송사과즙 120ml 한 포"},
-      {"t": "7-11", "shot": "개봉 후 바로 음용 → 컵에 따르기", "caption": "개봉해 바로, 또는 컵에 따라"},
-      {"t": "11-15", "shot": "박스 옆 파우치 50개", "caption": "50포 한 박스 · 삼형제농원"}
+      {
+        "t": "0-3",
+        "shot": "가방에 파우치 넣는 손",
+        "caption": "출근 가방에 쏙"
+      },
+      {
+        "t": "3-7",
+        "shot": "파우치 라벨 클로즈업",
+        "caption": "청송사과즙 120ml 한 포"
+      },
+      {
+        "t": "7-11",
+        "shot": "개봉 후 바로 음용 → 컵에 따르기",
+        "caption": "개봉해 바로, 또는 컵에 따라"
+      },
+      {
+        "t": "11-15",
+        "shot": "박스 옆 파우치 50개",
+        "caption": "50포 한 박스 · 삼형제농원"
+      }
     ],
-    "check_before_apply": ["기존 영상 재사용 권한", "광고 소재 영상 지원 여부"]
+    "check_before_apply": [
+      "기존 영상 재사용 권한",
+      "광고 소재 영상 지원 여부"
+    ]
   },
   "keyword_groups": {
-    "core": ["청송사과즙", "사과즙"],
-    "awareness": ["청송얼음골사과즙", "얼음골사과즙"],
-    "composition": ["사과즙50포", "사과즙120ml"],
-    "exclusion_review_after_2_weeks": ["형제농원", "밀양/청도 결합어"],
-    "category_blocked_2026-10-28": ["청송사과", "사과주스"],
+    "core": [
+      "청송사과즙",
+      "사과즙"
+    ],
+    "awareness": [
+      "청송얼음골사과즙",
+      "얼음골사과즙"
+    ],
+    "composition": [
+      "사과즙50포",
+      "사과즙120ml"
+    ],
+    "exclusion_review_after_2_weeks": [
+      "형제농원",
+      "밀양/청도 결합어"
+    ],
+    "category_blocked_2026-10-28": [
+      "청송사과",
+      "사과주스"
+    ],
     "note": "쇼핑몰 상품형은 자동 매칭. 직접 입찰 목록 아님. 노출 보장 없음."
   },
   "media_settings_proposal": {
     "media": "모든 매체 유지",
     "device_bid_weight": "변경 없음",
-    "bid_ex_vat": {"current": 100, "cap_proposed": 150, "start": 100},
-    "daily_budget_krw": {"recorded_not_approved": 10000, "proposed": 5000},
-    "total_loss_cap_krw": 70000,
+    "bid_ex_vat": {
+      "current": 100,
+      "cap_proposed": 150,
+      "start": 100
+    },
+    "daily_budget_krw": {
+      "recorded": 10000,
+      "proposed": 10000,
+      "note": "#87 손실 감수. 네이버 필수 항목이라 현재값 유지"
+    },
     "period_days": 14,
     "negative_keywords": "2주 후 재검토",
-    "weekly_report": "매체×검색어×기기 임시 보고서 저장(개인정보 없음)"
+    "weekly_report": "매체×검색어×기기 임시 보고서 저장(개인정보 없음)",
+    "loss_cap": "승인 조건에서 제외 (#87)"
   },
   "test_sequence": [
-    {"id": "T0", "type": "정정", "element": "제조일·소비기한·출고마감·제조원 통일", "prereq": "실물 라벨", "metric": "문의·취소 사유", "rollback": "없음"},
-    {"id": "T1", "type": "관찰", "element": "없음(현 제목 성과 회수)", "prereq": "광고계정 접근", "metric": "네이버 모바일 CTR·클릭"},
-    {"id": "T2", "type": "시험", "element": "대표이미지 현재→A", "prereq": "T0·촬영", "metric": "통합검색 모바일 CTR·순주문", "duration": "14일 또는 노출 2000+", "rollback": "노출 1000+에서 CTR 뚜렷이 하락"},
-    {"id": "T3", "type": "시험", "element": "확장소재 C1 추가", "prereq": "T2 판정", "metric": "문구별 CTR", "duration": "14일"},
-    {"id": "T4", "type": "시험", "element": "상세 첫 화면 재구성", "prereq": "스토어 편집 권한", "metric": "방문→순주문", "duration": "14일"},
-    {"id": "T5", "type": "시험", "element": "대표이미지 A→B", "prereq": "T2·T4", "metric": "CTR·순주문", "duration": "14일"},
-    {"id": "T6", "type": "조건부", "element": "입찰 상한 내 증액", "prereq": "원가·T2", "metric": "노출·CPC·CPA", "duration": "7일"}
+    {
+      "id": "T0",
+      "type": "정정",
+      "element": "출고 마감 12시로 통일·제조일/소비기한/제조원 라벨값으로 통일·1인1개 제한 해제 여부 반영",
+      "prereq": "실물 라벨",
+      "metric": "문의·취소 사유",
+      "rollback": "없음"
+    },
+    {
+      "id": "T1",
+      "type": "관찰",
+      "element": "없음(현 제목 성과 회수)",
+      "prereq": "광고계정 접근",
+      "metric": "네이버 모바일 CTR·클릭"
+    },
+    {
+      "id": "T2",
+      "type": "시험",
+      "element": "대표이미지 현재→A",
+      "prereq": "T0·촬영",
+      "metric": "통합검색 모바일 CTR·순주문",
+      "duration": "14일 또는 노출 2000+",
+      "rollback": "노출 1000+에서 CTR 뚜렷이 하락"
+    },
+    {
+      "id": "T3",
+      "type": "시험",
+      "element": "확장소재 C1 추가",
+      "prereq": "T2 판정",
+      "metric": "문구별 CTR",
+      "duration": "14일"
+    },
+    {
+      "id": "T4",
+      "type": "시험",
+      "element": "상세 첫 화면 재구성",
+      "prereq": "스토어 편집 권한",
+      "metric": "방문→순주문",
+      "duration": "14일"
+    },
+    {
+      "id": "T5",
+      "type": "시험",
+      "element": "대표이미지 A→B",
+      "prereq": "T2·T4",
+      "metric": "CTR·순주문",
+      "duration": "14일"
+    },
+    {
+      "id": "T6",
+      "type": "조건부",
+      "element": "입찰 상한 내 증액",
+      "prereq": "원가·T2",
+      "metric": "노출·CPC·CPA",
+      "duration": "7일"
+    }
   ],
-  "stop_conditions": ["누적 광고비 70,000원", "클릭 150회·순주문 0", "품절·출고 불가", "정책 경고·심사 반려", "허용 CPC 초과"],
-  "never": ["충전", "ADVoost/부스트 동시 등록", "추가 캠페인", "가격 변경", "리워드·반복·지인 클릭", "가짜 주문·리뷰", "IP/계정 분산"],
-  "fill_before_launch": ["원가", "포장비", "판매자 부담 배송비", "수수료율", "재고 박스 수", "출고 가능 요일·마감", "실물 라벨 날짜", "매니저/편집 권한"],
+  "stop_conditions": [
+    "정책 경고·심사 반려",
+    "착즙 공백·출고 불가",
+    "품질 문의·취소 급증",
+    "허용 CPC 초과(원가 3개 수령 후)"
+  ],
+  "never": [
+    "충전",
+    "ADVoost/부스트 동시 등록",
+    "추가 캠페인",
+    "가격 변경",
+    "리워드·반복·지인 클릭",
+    "가짜 주문·리뷰",
+    "IP/계정 분산"
+  ],
+  "fill_before_launch": [
+    "가공비",
+    "박스 단가(농협)",
+    "파우치 단가 재계산(추정 150원)",
+    "택배비(건당)",
+    "네이버 수수료율(정산화면)",
+    "파우치/박스 라벨 날짜",
+    "매니저/편집 권한",
+    "1인1개 제한 해제 여부"
+  ],
   "formulas": {
     "net_orders": "주문 - 취소 - 반품",
     "contribution_before_ads": "순매출 - 원가 - 포장 - 판매자부담배송 - 수수료 - 반품손실",
     "profit_after_ads": "광고 전 기여이익 - 광고비(VAT포함)",
     "allowed_cpc": "(주문당 기여이익 - 남길 이익) × 클릭→주문 전환율"
+  },
+  "seller_answers_2026-11-04": {
+    "stock": "제한 없음(자가 재배·착즙)",
+    "shipping_cutoff": "당일 12:00 이전 주문 당일 발송",
+    "cost": "미산정; 자가 재배. 필요 숫자: 가공비·포장비(파우치50+박스)·택배비",
+    "loss": "감수(네이버 재시작)",
+    "packaging_estimate": {
+      "pouch_each_krw": 150,
+      "pouch_50_krw": 7500,
+      "basis": "판매자 추정, 통 사입이라 재계산 필요",
+      "box_krw": "미확인(농협 공급)"
+    }
   }
 }
