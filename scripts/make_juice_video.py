@@ -55,12 +55,21 @@ def endcard(t):
         tw = d.textlength(txt, font=fnt); d.text(((W - tw) / 2, yy), txt, font=fnt, fill=col)
     return im
 
+def scene_img(idx, fallback):
+    """Use a generated/real lifestyle still if result/juice_scene_0N_*.png|jpg exists, else fallback."""
+    import glob
+    hits = sorted(glob.glob(f'result/juice_scene_{idx:02d}_*.png') + glob.glob(f'result/juice_scene_{idx:02d}_*.jpg'))
+    if hits:
+        print('scene', idx, '->', hits[0]); return Image.open(hits[0]).convert('RGB')
+    return fallback
+
+S1, S2, S3, S4 = scene_img(1, pouch), scene_img(2, label), scene_img(3, pouch), scene_img(4, pouch)
 scenes = [
     # (duration s, image, zoom0, zoom1, c0, c1, caption, sub)
-    (3.5, pouch, 1.00, 1.18, (0.5, 0.45), (0.52, 0.40), '출근 가방에 쏙', '납작한 파우치, 한 포씩'),
-    (4.0, label, 1.15, 1.30, (0.42, 0.45), (0.46, 0.52), '청송사과즙 120ml 한 포', '사과 100% · 첨가물 없음 (라벨 표기)'),
-    (3.5, pouch, 1.25, 1.10, (0.55, 0.60), (0.45, 0.55), '개봉해 바로, 또는 컵에 따라', '하루 한 포, 간식으로'),
-    (3.0, pouch, 1.05, 1.22, (0.5, 0.5), (0.5, 0.35), '50포 한 박스 · 삼형제농원', '낮 12시 전 주문 당일 발송'),
+    (3.5, S1, 1.00, 1.18, (0.5, 0.45), (0.52, 0.40), '출근 가방에 쏙', '납작한 파우치, 한 포씩'),
+    (4.0, S2, 1.15, 1.30, (0.42, 0.45), (0.46, 0.52), '청송사과즙 120ml 한 포', '사과 100% · 첨가물 없음 (라벨 표기)'),
+    (3.5, S3, 1.25, 1.10, (0.55, 0.60), (0.45, 0.55), '개봉해 바로, 또는 컵에 따라', '하루 한 포, 간식으로'),
+    (3.0, S4, 1.05, 1.22, (0.5, 0.5), (0.5, 0.35), '50포 한 박스 · 삼형제농원', '낮 12시 전 주문 당일 발송'),
 ]
 frames = []
 XF = int(0.4 * FPS)
