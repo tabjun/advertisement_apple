@@ -167,7 +167,8 @@
     "bid_ex_vat": {
       "current": 100,
       "cap_proposed": 150,
-      "start": 100
+      "start": 100,
+      "note": "#89 가격 인하로 여유 축소. 수수료 확인 후 상한 재검토"
     },
     "daily_budget_krw": {
       "recorded": 10000,
@@ -307,17 +308,14 @@
     "processing": "미확인",
     "naver_fee": "정산화면 확인",
     "known_sum": 21400,
-    "remaining_at_39900_before_box_processing_fee": 18500
+    "remaining_at_39900_before_box_processing_fee": 18500,
+    "remaining_at_24900_plus_5000_before_box_processing_fee": 8500
   },
   "allowed_cpc_scenarios": {
     "assumed_cvr_pct": 2.87,
-    "cvr_range_pct": [
-      1.6,
-      5.2
-    ],
-    "keep_10000": 240,
-    "keep_5000": 390,
-    "note": "박스·가공·수수료 반영 전. 상한 150원 유지"
+    "keep_3000": 160,
+    "keep_0": 240,
+    "note": "24,900+5,000 기준. 수수료·박스·가공 전. 입찰 100원 유지, 상한 150원 재검토"
   },
   "page_flow": [
     "광고 카드: 이미지A·제목·39,900 무료배송·C1",
@@ -325,5 +323,12 @@
     "박스+파우치 B·총6L·음용법",
     "라벨 사진·제조원·보관·소비기한 각인",
     "FAQ·영상·농원 소개"
-  ]
+  ],
+  "price_decision_2026-11-04": {
+    "price_krw": 24900,
+    "shipping_charged_krw": 5000,
+    "customer_total": 29900,
+    "applied_live": false,
+    "goal": "판매량 증가로 손실 상쇄"
+  }
 }
