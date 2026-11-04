@@ -3,7 +3,8 @@
   "request": [
     86,
     87,
-    88
+    88,
+    89
   ],
   "session": "Claude-20261104-86",
   "status": "approval_pending_local_only",
@@ -290,5 +291,39 @@
       "소비기한 가장자리 각인",
       "첨가물 NO 인쇄"
     ]
-  }
+  },
+  "cost_estimate_per_box_2026-11-04": {
+    "apple_raw": {
+      "krw": 10000,
+      "range": [
+        8600,
+        12000
+      ],
+      "basis": "18kg 30,000원 / 2.5~3.5박스 (#89)"
+    },
+    "pouch_50": 7500,
+    "shipping": 3900,
+    "box": "미확인",
+    "processing": "미확인",
+    "naver_fee": "정산화면 확인",
+    "known_sum": 21400,
+    "remaining_at_39900_before_box_processing_fee": 18500
+  },
+  "allowed_cpc_scenarios": {
+    "assumed_cvr_pct": 2.87,
+    "cvr_range_pct": [
+      1.6,
+      5.2
+    ],
+    "keep_10000": 240,
+    "keep_5000": 390,
+    "note": "박스·가공·수수료 반영 전. 상한 150원 유지"
+  },
+  "page_flow": [
+    "광고 카드: 이미지A·제목·39,900 무료배송·C1",
+    "첫 화면 5줄: 120ml×50포 / 사과100% 청송군·첨가물 없음(라벨) / 직접 키운 사과 착즙 / 12시 전 당일 발송 / 가격·구매",
+    "박스+파우치 B·총6L·음용법",
+    "라벨 사진·제조원·보관·소비기한 각인",
+    "FAQ·영상·농원 소개"
+  ]
 }
