@@ -7,7 +7,8 @@
     89,
     91,
     93,
-    95
+    95,
+    96
   ],
   "session": "Claude-20261104-86",
   "status": "approval_pending_local_only",
@@ -259,7 +260,8 @@
   "fill_before_launch": [
     "대표이미지 A/B 촬영",
     "파우치 각인 날짜",
-    "매니저/편집 권한"
+    "매니저/편집 권한",
+    "어린이 FAQ 영양소 섭취기준 원문 확인"
   ],
   "formulas": {
     "net_orders": "주문 - 취소 - 반품",
@@ -307,7 +309,7 @@
     "goal": "노출·유입·구매 증가로 판매량 확대",
     "jeju_islands_extra_krw": 3000
   },
-  "purchase_limit": "1인 1개 제한 해제 (사용자 결정 #91, 미적용)",
+  "purchase_limit": "한 번 주문에 최대 3박스 (1인 1개 제한 해제, 사용자 결정 #96, 미적용)",
   "cost_policy_2026-11-04": "사용자 지시(#91): 완제품 1박스 5만원. 단가·손익 계산은 중단, 손실 감수. 노출·유입·구매 증가에 집중",
   "copy_rules_2026-11-04": {
     "forbidden": [
@@ -322,5 +324,15 @@
     ],
     "origin_expression": "국내산 청송군 사과 100% (라벨)",
     "farm_expression": "청송 얼음골의 사과 농가, 삼형제농원"
+  },
+  "shipping_arrival": "제주·도서산간 외 보통 발송 다음 날 도착, 기상 악화 시 예외 (#96)",
+  "kids_faq": {
+    "facts_from_label": {
+      "kcal_per_120ml": 70.79,
+      "sugars_g_per_120ml": 15.58
+    },
+    "comparison_basis": "만 3~5세 에너지 필요추정량 1,400kcal (2020 한국인 영양소 섭취기준) — 공식 원문 확인 전",
+    "share_pct_approx": 5,
+    "rule": "효능·건강 표현 금지, 영양성분 사실과 공식 기준 비율만"
   }
 }
