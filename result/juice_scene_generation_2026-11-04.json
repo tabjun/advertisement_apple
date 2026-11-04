@@ -1,0 +1,154 @@
+{
+  "request": 101,
+  "generated_on": "2026-11-05T00:05:44+09:00",
+  "file_date_retained": "2026-11-04 (사용자 지정 파일명)",
+  "references": [
+    "result/juice_original_product_2026-10-28.webp",
+    "result/juice_pouch_label_roll_2026-11-04.jpg"
+  ],
+  "mode": "built-in image_gen, one call per scene; scene02 portrait-reframe retry",
+  "attempts": {
+    "scene01": 1,
+    "scene02": 2,
+    "scene03": 1,
+    "scene04": 1,
+    "scene05": 1
+  },
+  "resolution_note": "내장 도구 원본은 941×1672 등으로 최소 규격보다 작음. 원본의 새로운 세부정보를 주장하지 않고 납품 파일을1080×1920로규격화함.",
+  "scene_contact": "result/juice_scene_contact_2026-11-04.png",
+  "scenes": [
+    {
+      "scene": 1,
+      "file": "result/juice_scene_01_bag.png",
+      "generator_output_basename": "exec-85d508cd-d93b-48b7-930a-af2fcd0e63d2.png",
+      "native_dimensions": [
+        941,
+        1672
+      ],
+      "delivery_dimensions": [
+        1080,
+        1920
+      ],
+      "delivery_normalization": "9:16 중앙 미세 크롭·Lanczos 리사이즈, 라벨 내용 편집 없음",
+      "native_resolution_claimed": false,
+      "sha256": "e9d1647f938a6130ee652567d62095e76e3afe2c576e32d57464ff4ddde1b98e",
+      "tool": "built-in image_gen",
+      "prompt": "Use case: ads-marketing. Output ONE high resolution portrait photograph, 9:16 canvas 2160x3840 pixels, minimum 1080x1920. No montage.\nReference 1 shows the actual 120ml cream foil pouch; Reference 2 supports the original packaging print (ignore blue tape and roll machinery). Reference 3 is a style/identity anchor for the same front-facing pouch.\nPreserve the SAME product: flat rectangular cream sachet, serrated heat-sealed edges, no cap/spout/ziplock, pale gray apples pattern, green apple outline, red apples. Exact original front-label words are '청송얼음골 사과즙', yellow/red '얼음골', large brush lettering '사과하나', 'Fresh Fruit Apple', '백설공주도 다시 뒤돌아 보게 만든 바로 그 사과!', '사과 100%, 120 ml(70.79 kcal)'. Do not invent, omit, substitute or misspell visible label words. Only original package printing is allowed; no additional text, branding, logos, certification icons, claims, captions, watermarks, UI or signs. No faces, heads, torsos, identifiable people, customer reviews or endorsements. Show only realistic hands and inanimate objects as requested. Keep key product details within the central 60% width and middle 60% height so portrait/square video framing remains possible. Natural photorealistic food advertising, warm-neutral daylight, realistic foil reflections and anatomically correct hands; no CGI/cartoon. Morning beside a bright wooden dining table and a plain open natural-canvas tote bag. One adult hand is sliding one of these small flat juice sachets into the tote's inner pocket. The pouch front faces the camera, text unobstructed by fingers except along an unprinted edge. Close still life, 45-degree angle, soft window daylight. Tote has no print, tags or logo; no other gadgets or objects. Visibly one 120ml pouch, realistic size relative to the adult hand. Leave lower portion quiet for later captions.",
+      "review": {
+        "visible_main_label_words": "청송얼음골 사과즙 / 얼음골 / 사과하나 / Fresh Fruit Apple / 백설공주도 / 사과 100%·120ml·70.79kcal 육안대조",
+        "no_observed_main_word_typo": true,
+        "no_faces": true,
+        "no_added_caption_logo_certification": true,
+        "limitation": "원본 라벨 픽셀을 복사한 사진이 아니라 생성형 재현. 작은 인쇄 전체의 픽셀동일성·박스 내 실제50개 수량은 검증하지 못함."
+      }
+    },
+    {
+      "scene": 2,
+      "file": "result/juice_scene_02_pouch.png",
+      "generator_output_basename": "exec-83f42cee-8ac8-4912-96ee-2a8d55729eda.png",
+      "native_dimensions": [
+        941,
+        1672
+      ],
+      "delivery_dimensions": [
+        1080,
+        1920
+      ],
+      "delivery_normalization": "9:16 중앙 미세 크롭·Lanczos 리사이즈, 라벨 내용 편집 없음",
+      "native_resolution_claimed": false,
+      "sha256": "c8c78f0badaed33765451a7ae60220b9fa41f483f47121df67f456f6aee782c0",
+      "tool": "built-in image_gen",
+      "prompt": "Edit the FIRST image (the finished studio pouch photo) into a true tall 9:16 portrait campaign still, output at least 1080x1920 pixels, ideally 2160x3840. Extend only the plain seamless white background above and below as necessary. Keep exactly one full flat cream 120ml sealed pouch centered. Preserve the existing entire package including EVERY Korean/English label letter and exact artwork without any textual change, no new package, no new logo, no claim or watermark. Image 2 and Image 3 are the original product-reference photos: the main front print must agree with these ('청송얼음골 사과즙', '얼음골', '사과하나', 'Fresh Fruit Apple', '백설공주도 다시 뒤돌아 보게 만든 바로 그 사과!', '사과 100%, 120 ml(70.79 kcal)'). No blue tape, roll or factory. Soft studio shadow on white, photorealistic foil, no hands or faces. Important final canvas is a SINGLE 9:16 portrait image, no montage, no text outside the package.",
+      "review": {
+        "visible_main_label_words": "청송얼음골 사과즙 / 얼음골 / 사과하나 / Fresh Fruit Apple / 백설공주도 / 사과 100%·120ml·70.79kcal 육안대조",
+        "no_observed_main_word_typo": true,
+        "no_faces": true,
+        "no_added_caption_logo_certification": true,
+        "limitation": "원본 라벨 픽셀을 복사한 사진이 아니라 생성형 재현. 작은 인쇄 전체의 픽셀동일성·박스 내 실제50개 수량은 검증하지 못함."
+      }
+    },
+    {
+      "scene": 3,
+      "file": "result/juice_scene_03_pour.png",
+      "generator_output_basename": "exec-0c03447a-52f7-4e1c-8f84-5981f6bb8174.png",
+      "native_dimensions": [
+        941,
+        1672
+      ],
+      "delivery_dimensions": [
+        1080,
+        1920
+      ],
+      "delivery_normalization": "9:16 중앙 미세 크롭·Lanczos 리사이즈, 라벨 내용 편집 없음",
+      "native_resolution_claimed": false,
+      "sha256": "af788b49635fafef63d9b3516c9e1c08879f53fcad19e7f93f995bcdb9d1248f",
+      "tool": "built-in image_gen",
+      "prompt": "Use case: ads-marketing. Output ONE high resolution portrait photograph, 9:16 canvas 2160x3840 pixels, minimum 1080x1920. No montage.\nReference 1 shows the actual 120ml cream foil pouch; Reference 2 supports the original packaging print (ignore blue tape and roll machinery). Reference 3 is a style/identity anchor for the same front-facing pouch.\nPreserve the SAME product: flat rectangular cream sachet, serrated heat-sealed edges, no cap/spout/ziplock, pale gray apples pattern, green apple outline, red apples. Exact original front-label words are '청송얼음골 사과즙', yellow/red '얼음골', large brush lettering '사과하나', 'Fresh Fruit Apple', '백설공주도 다시 뒤돌아 보게 만든 바로 그 사과!', '사과 100%, 120 ml(70.79 kcal)'. Do not invent, omit, substitute or misspell visible label words. Only original package printing is allowed; no additional text, branding, logos, certification icons, claims, captions, watermarks, UI or signs. No faces, heads, torsos, identifiable people, customer reviews or endorsements. Show only realistic hands and inanimate objects as requested. Keep key product details within the central 60% width and middle 60% height so portrait/square video framing remains possible. Natural photorealistic food advertising, warm-neutral daylight, realistic foil reflections and anatomically correct hands; no CGI/cartoon. On a bright light-wood dining table, one adult hand holds the exact referenced pouch at a believable downward pouring angle, with a tiny torn opening at its corner. An unbroken modest stream of amber apple juice pours from that opened corner into a short clear unbranded glass cup. A few natural droplets, not a dramatic splash. Pouch front label faces camera, remains recognizable and readable, fingers grip unprinted edge. No face or body. The carton-like pouch has no spout. View from near table height, realistic liquid and transparent glass, soft window daylight.",
+      "review": {
+        "visible_main_label_words": "청송얼음골 사과즙 / 얼음골 / 사과하나 / Fresh Fruit Apple / 백설공주도 / 사과 100%·120ml·70.79kcal 육안대조",
+        "no_observed_main_word_typo": true,
+        "no_faces": true,
+        "no_added_caption_logo_certification": true,
+        "limitation": "원본 라벨 픽셀을 복사한 사진이 아니라 생성형 재현. 작은 인쇄 전체의 픽셀동일성·박스 내 실제50개 수량은 검증하지 못함."
+      }
+    },
+    {
+      "scene": 4,
+      "file": "result/juice_scene_04_box.png",
+      "generator_output_basename": "exec-64453eef-7569-4157-af6d-0461f68527a9.png",
+      "native_dimensions": [
+        941,
+        1672
+      ],
+      "delivery_dimensions": [
+        1080,
+        1920
+      ],
+      "delivery_normalization": "9:16 중앙 미세 크롭·Lanczos 리사이즈, 라벨 내용 편집 없음",
+      "native_resolution_claimed": false,
+      "sha256": "52e4f6c2dc9268209b2af04d7705f2074ee6772b76dd1561bbf60a92bd1df2cd",
+      "tool": "built-in image_gen",
+      "prompt": "Use case: ads-marketing. Output ONE high resolution portrait photograph, 9:16 canvas 2160x3840 pixels, minimum 1080x1920. No montage.\nReference 1 shows the actual 120ml cream foil pouch; Reference 2 supports the original packaging print (ignore blue tape and roll machinery). Reference 3 is a style/identity anchor for the same front-facing pouch.\nPreserve the SAME product: flat rectangular cream sachet, serrated heat-sealed edges, no cap/spout/ziplock, pale gray apples pattern, green apple outline, red apples. Exact original front-label words are '청송얼음골 사과즙', yellow/red '얼음골', large brush lettering '사과하나', 'Fresh Fruit Apple', '백설공주도 다시 뒤돌아 보게 만든 바로 그 사과!', '사과 100%, 120 ml(70.79 kcal)'. Do not invent, omit, substitute or misspell visible label words. Only original package printing is allowed; no additional text, branding, logos, certification icons, claims, captions, watermarks, UI or signs. No faces, heads, torsos, identifiable people, customer reviews or endorsements. Show only realistic hands and inanimate objects as requested. Keep key product details within the central 60% width and middle 60% height so portrait/square video framing remains possible. Natural photorealistic food advertising, warm-neutral daylight, realistic foil reflections and anatomically correct hands; no CGI/cartoon. An open cream-colored carry-handle carton on a light wood tabletop, viewed from 45 degrees above. The carton plausibly holds 50 of the same slim 120ml pouches arranged in compact orderly bundles, most pouches partly occluded and showing sealed edges or unprinted backs. One adult hand gently lifts a SINGLE pouch toward camera with its front-label visible and readable. Plain carton, no printed text, logos, symbols or seals. Do not fabricate a different package, giant 50-item grid, misleading assortment, or empty box. Photorealistic small family-farm juice order, not a factory scene.",
+      "review": {
+        "visible_main_label_words": "청송얼음골 사과즙 / 얼음골 / 사과하나 / Fresh Fruit Apple / 백설공주도 / 사과 100%·120ml·70.79kcal 육안대조",
+        "no_observed_main_word_typo": true,
+        "no_faces": true,
+        "no_added_caption_logo_certification": true,
+        "limitation": "원본 라벨 픽셀을 복사한 사진이 아니라 생성형 재현. 작은 인쇄 전체의 픽셀동일성·박스 내 실제50개 수량은 검증하지 못함."
+      }
+    },
+    {
+      "scene": 5,
+      "file": "result/juice_scene_05_family.png",
+      "generator_output_basename": "exec-2d638441-42ff-4d0c-ac7e-382f5219cb55.png",
+      "native_dimensions": [
+        941,
+        1672
+      ],
+      "delivery_dimensions": [
+        1080,
+        1920
+      ],
+      "delivery_normalization": "9:16 중앙 미세 크롭·Lanczos 리사이즈, 라벨 내용 편집 없음",
+      "native_resolution_claimed": false,
+      "sha256": "476ead43712df6502c8e4e3e9b768fb64e6e44e0262ca813b543047819b3b421",
+      "tool": "built-in image_gen",
+      "prompt": "Use case: ads-marketing. Output ONE high resolution portrait photograph, 9:16 canvas 2160x3840 pixels, minimum 1080x1920. No montage.\nReference 1 shows the actual 120ml cream foil pouch; Reference 2 supports the original packaging print (ignore blue tape and roll machinery). Reference 3 is a style/identity anchor for the same front-facing pouch.\nPreserve the SAME product: flat rectangular cream sachet, serrated heat-sealed edges, no cap/spout/ziplock, pale gray apples pattern, green apple outline, red apples. Exact original front-label words are '청송얼음골 사과즙', yellow/red '얼음골', large brush lettering '사과하나', 'Fresh Fruit Apple', '백설공주도 다시 뒤돌아 보게 만든 바로 그 사과!', '사과 100%, 120 ml(70.79 kcal)'. Do not invent, omit, substitute or misspell visible label words. Only original package printing is allowed; no additional text, branding, logos, certification icons, claims, captions, watermarks, UI or signs. No faces, heads, torsos, identifiable people, customer reviews or endorsements. Show only realistic hands and inanimate objects as requested. Keep key product details within the central 60% width and middle 60% height so portrait/square video framing remains possible. Natural photorealistic food advertising, warm-neutral daylight, realistic foil reflections and anatomically correct hands; no CGI/cartoon. Warm naturally lit dining tabletop with two or three of the same referenced juice pouches and one or two short clear glasses of amber apple juice. One child's hand and one adult's hand each reach for one pouch from different edges of the frame. Only hands, absolutely no faces, heads, bodies or silhouettes. Both hands anatomically natural, no jewelry. Product front labels on the table face camera enough to recognize the same product; do not add new words. A quiet close composition for an everyday family-use illustration, not a testimonial or health claim. No other food or decor.",
+      "review": {
+        "visible_main_label_words": "청송얼음골 사과즙 / 얼음골 / 사과하나 / Fresh Fruit Apple / 백설공주도 / 사과 100%·120ml·70.79kcal 육안대조",
+        "no_observed_main_word_typo": true,
+        "no_faces": true,
+        "no_added_caption_logo_certification": true,
+        "limitation": "원본 라벨 픽셀을 복사한 사진이 아니라 생성형 재현. 작은 인쇄 전체의 픽셀동일성·박스 내 실제50개 수량은 검증하지 못함."
+      }
+    }
+  ],
+  "label_qa_scope": "읽히는 주요 문구 육안대조. 정확히 동일한 인쇄 아트워크/작은 글자 전체는 미보증.",
+  "rejected_attempts": [
+    {
+      "scene": 2,
+      "reason": "초기 이미지 종횡비1065×1477이9:16과달라 image_gen으로흰배경세로확장재생성"
+    }
+  ],
+  "live_product_or_ad_changes": false
+}

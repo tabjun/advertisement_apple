@@ -142,3 +142,13 @@ result/*
 !result/juice_video_15s_1x1_2026-11-04.mp4
 !result/juice_video_15s_contact_2026-11-04.png
 !result/juice_scene_prompts_2026-11-04.md
+
+# #101 reviewed generated scenes and verification receipts
+!result/juice_scene_01_bag.png
+!result/juice_scene_02_pouch.png
+!result/juice_scene_03_pour.png
+!result/juice_scene_04_box.png
+!result/juice_scene_05_family.png
+!result/juice_scene_contact_2026-11-04.png
+!result/juice_scene_generation_2026-11-04.json
+!result/juice_video_qa_2026-11-04.json

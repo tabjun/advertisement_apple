@@ -1,107 +1,136 @@
-import os, sys, math
-os.chdir(r'C:\Users\jun99\OneDrive - 계명대학교\바탕 화면\Analysis\toy_agent_project\advertisement_apple')
-sys.path.insert(0, '.venv-report')
-from PIL import Image, ImageDraw, ImageFont, ImageFilter
+"""Local-only 15s motion-video assembly. Run: py -3.12 scripts/make_juice_video.py"""
+from pathlib import Path
+import sys, json
+ROOT=Path(__file__).resolve().parents[1]
+sys.path.insert(0,str(ROOT/'.venv-report'))
+from PIL import Image,ImageDraw,ImageFont,ImageOps
 import numpy as np
 import imageio.v2 as imageio
+RESULT=ROOT/'result'; WORK=ROOT/'.codex-build/video101'; WORK.mkdir(parents=True,exist_ok=True)
+W,H,FPS=1080,1920,30
+BOLD=r'C:\Windows\Fonts\malgunbd.ttf'; REG=r'C:\Windows\Fonts\malgun.ttf'
+R=Image.Resampling; CHECKS={}
 
-W, H, FPS = 1080, 1920, 30
-BOLD = r'C:\Windows\Fonts\malgunbd.ttf'
-REG = r'C:\Windows\Fonts\malgun.ttf'
-pouch = Image.open('result/juice_original_product_2026-10-28.webp').convert('RGB')          # 750x1000
-label = Image.open('result/juice_pouch_label_roll_2026-11-04.jpg').convert('RGB')          # 1080x1475
+def scene(index,suffix,fallback):
+    p=RESULT/f'juice_scene_{index:02d}_{suffix}.png'
+    if not p.is_file():p=RESULT/fallback
+    print('source:',p.name,flush=True)
+    return Image.open(p).convert('RGB'),p.name
 
-def cover(img, w, h):
-    iw, ih = img.size; s = max(w / iw, h / ih)
-    im = img.resize((int(iw * s) + 1, int(ih * s) + 1), Image.LANCZOS)
-    x = (im.size[0] - w) // 2; y = (im.size[1] - h) // 2
-    return im.crop((x, y, x + w, y + h))
+S1,P1=scene(1,'bag','juice_original_product_2026-10-28.webp')
+S2,P2=scene(2,'pouch','juice_pouch_label_roll_2026-11-04.jpg')
+S3,P3=scene(3,'pour','juice_original_product_2026-10-28.webp')
+S4,P4=scene(4,'box','juice_original_product_2026-10-28.webp')
+S5,P5=scene(5,'family','juice_original_product_2026-10-28.webp')
+SCENES=[
+ (3,S1,P1,'출근 가방에 쏙','납작한 파우치, 한 포씩'),
+ (3,S2,P2,'청송사과즙 120ml 한 포','국내산 청송군 사과 100%'),
+ (3,S3,P3,'개봉해 바로, 또는 컵에 따라','120ml 파우치'),
+ (3,S4,P4,'50포 한 박스 · 삼형제농원','영업일 낮 12시 전 주문 당일 발송'),
+ (1.5,S5,P5,'','')]
+assert sum(s[0] for s in SCENES)+1.5==15
 
-def kenburns(img, t, z0, z1, cx0, cy0, cx1, cy1):
-    """t in [0,1]; zoom z (1=cover), center (cx,cy) in 0..1 of image."""
-    z = z0 + (z1 - z0) * t; cx = cx0 + (cx1 - cx0) * t; cy = cy0 + (cy1 - cy0) * t
-    iw, ih = img.size; s = max(W / iw, H / ih) * z
-    sw, sh = int(iw * s) + 1, int(ih * s) + 1
-    im = img.resize((sw, sh), Image.BILINEAR)
-    x = int(cx * sw - W / 2); y = int(cy * sh - H / 2)
-    x = max(0, min(sw - W, x)); y = max(0, min(sh - H, y))
-    return im.crop((x, y, x + W, y + H))
+def photo(source,t,square):
+    width,height=source.size; zoom=1+0.035*t
+    cw,ch=int(width/zoom),int(height/zoom); x,y=(width-cw)//2,(height-ch)//2
+    source=source.crop((x,y,x+cw,y+ch))
+    if not square:return ImageOps.fit(source,(W,H),method=R.BILINEAR)
+    # Preserve the full portrait photo instead of cutting off labels/cups in a square crop.
+    im=Image.new('RGB',(W,W),(250,247,242))
+    inset=ImageOps.contain(source,(W-40,885),method=R.BILINEAR)
+    im.paste(inset,((W-inset.width)//2,15)); return im
 
-def caption(frame, text, sub=None, alpha=1.0):
-    im = frame.copy(); d = ImageDraw.Draw(im)
-    f = ImageFont.truetype(BOLD, 84); fs = ImageFont.truetype(REG, 44)
-    y = int(H * 0.72)
-    # soft dark band
-    band = Image.new('RGBA', (W, 420), (0, 0, 0, 0)); bd = ImageDraw.Draw(band)
-    bd.rectangle((0, 0, W, 420), fill=(0, 0, 0, int(110 * alpha)))
-    band = band.filter(ImageFilter.GaussianBlur(40))
-    im.paste(band, (0, y - 120), band)
-    d = ImageDraw.Draw(im)
-    tw = d.textlength(text, font=f); x = (W - tw) / 2
-    for dx in (-4, 4):
-        for dy in (-4, 4):
-            d.text((x + dx, y + dy), text, font=f, fill=(0, 0, 0, int(255 * alpha)))
-    d.text((x, y), text, font=f, fill=(255, 255, 255, int(255 * alpha)))
-    if sub:
-        sw = d.textlength(sub, font=fs); d.text(((W - sw) / 2, y + 120), sub, font=fs, fill=(255, 240, 220))
+def font_fit(draw,text,maxwidth,size,path):
+    while size>24:
+        font=ImageFont.truetype(path,size)
+        if draw.textlength(text,font=font)<=maxwidth:return font
+        size-=1
+    raise ValueError('Caption does not fit: '+text)
+
+def caption(im,text,sub,alpha=1):
+    if not text:return im
+    width,height=im.size; square=width==height
+    overlay=Image.new('RGBA',im.size,(0,0,0,0)); d=ImageDraw.Draw(overlay)
+    top=height-(190 if square else 320)
+    d.rectangle((0,top,width,height),fill=(0,0,0,int(140*alpha)))
+    main=font_fit(d,text,width-100,64 if square else 78,BOLD)
+    small=font_fit(d,sub,width-100,32 if square else 42,REG)
+    bounds=[]
+    for value,font,y in [(text,main,height-(155 if square else 260)),(sub,small,height-(65 if square else 120))]:
+        x=(width-d.textlength(value,font=font))/2; box=d.textbbox((x,y),value,font=font)
+        assert box[0]>=40 and box[2]<=width-40 and box[3]<=height-15,(value,box)
+        d.text((x,y),value,font=font,fill=(255,255,255,int(255*alpha))); bounds.append(list(box))
+    CHECKS[f'{width}x{height}:{text}']={'main':text,'sub':sub,'bounds':bounds,'inside_frame':True}
+    return Image.alpha_composite(im.convert('RGBA'),overlay).convert('RGB')
+
+def endcard(square):
+    width,height=(W,W) if square else (W,H)
+    im=Image.new('RGB',(width,height),(250,247,242)); d=ImageDraw.Draw(im)
+    pouch=ImageOps.contain(S2,(640,555 if square else 1010),method=R.LANCZOS)
+    im.paste(pouch,((width-pouch.width)//2,25 if square else 80))
+    lines=[('청송사과즙',90 if square else 112,630 if square else 1150,'#202020'),
+           ('120ml × 50포',60 if square else 74,760 if square else 1320,'#404040'),
+           ('29,900원 · 무료배송',62 if square else 78,860 if square else 1460,'#b23a2a'),
+           ('삼형제농원',44 if square else 52,970 if square else 1620,'#555555')]
+    for text,size,y,color in lines:
+        font=font_fit(d,text,width-100,size,BOLD); x=(width-d.textlength(text,font=font))/2
+        box=d.textbbox((x,y),text,font=font)
+        assert box[0]>=40 and box[2]<=width-40 and box[3]<height-15
+        d.text((x,y),text,font=font,fill=color)
+        CHECKS[f'end:{width}x{height}:{text}']={'main':text,'bounds':[list(box)],'inside_frame':True}
     return im
 
-def endcard(t):
-    im = Image.new('RGB', (W, H), (250, 246, 240)); d = ImageDraw.Draw(im)
-    ph = cover(pouch, 760, 760); im.paste(ph, ((W - 760) // 2, 300))
-    f1 = ImageFont.truetype(BOLD, 110); f2 = ImageFont.truetype(BOLD, 64); f3 = ImageFont.truetype(REG, 46)
-    for txt, fnt, yy, col in [('청송사과즙', f1, 1150, (29, 29, 31)), ('120ml × 50포', f2, 1300, (60, 60, 60)),
-                               ('29,900원 · 무료배송', f2, 1400, (178, 58, 42)), ('삼형제농원 · 경북 청송군', f3, 1520, (90, 90, 90))]:
-        tw = d.textlength(txt, font=fnt); d.text(((W - tw) / 2, yy), txt, font=fnt, fill=col)
-    return im
+def main():
+    paths={n:RESULT/f'juice_video_15s_{n}_2026-11-04.mp4' for n in ['9x16','1x1']}
+    temp={n:WORK/p.name for n,p in paths.items()}
+    writers={n:imageio.get_writer(str(p),fps=FPS,codec='libx264',quality=8,pixelformat='yuv420p',
+                 macro_block_size=None,ffmpeg_params=['-movflags','+faststart']) for n,p in temp.items()}
+    last={}; count=0; crossfade=int(.25*FPS)
+    try:
+        for index,(seconds,source,filename,text,sub) in enumerate(SCENES):
+            total=int(seconds*FPS); print(f'encoding scene {index+1}: {total} frames',flush=True)
+            for k in range(total):
+                for name,square in [('9x16',False),('1x1',True)]:
+                    fr=caption(photo(source,k/max(1,total-1),square),text,sub,min(1,k/(.25*FPS)))
+                    if index and k<crossfade:fr=Image.blend(last[name],fr,k/crossfade)
+                    writers[name].append_data(np.asarray(fr))
+                    if k==total-1:last[name]=fr
+                count+=1
+        cards={'9x16':endcard(False),'1x1':endcard(True)}
+        for k in range(int(1.5*FPS)):
+            for name in writers:
+                writers[name].append_data(np.asarray(Image.blend(last[name],cards[name],min(1,k/crossfade))))
+            count+=1
+    finally:
+        for writer in writers.values():writer.close()
+    assert count==450
+    for name in paths:temp[name].replace(paths[name])
+    times=[1.5,4.5,7.5,10.5,12.75,14.6]
+    sheet=Image.new('RGB',(1620,850),'white'); d=ImageDraw.Draw(sheet)
+    font=ImageFont.truetype(BOLD,20)
+    d.text((12,8),'9:16 · 인코딩 영상에서 추출',font=font,fill='#202020')
+    d.text((12,540),'1:1 · 전체 장면 유지, 자막 별도 배치',font=font,fill='#202020')
+    qa={'request':101,'type':'AI stills with local pan/zoom/crossfade, not generated-motion footage',
+        'fps':FPS,'expected_frames':450,'duration_seconds':15.0,'audio':'none',
+        'sources':[s[2] for s in SCENES],'caption_bounds':CHECKS,'outputs':{},
+        'note':'Local creative preview only. Label main words visually checked; original-print pixel identity not guaranteed.'}
+    for name in paths:
+        reader=imageio.get_reader(str(paths[name]))
+        try:
+            meta=reader.get_meta_data(); actual=reader.count_frames()
+            assert actual==450,(name,actual)
+            assert tuple(meta['size'])==((1080,1920) if name=='9x16' else (1080,1080))
+            assert abs(meta['duration']-15)<.05
+            for i,t in enumerate(times):
+                fr=Image.fromarray(reader.get_data(int(t*FPS)))
+                size=(270,480) if name=='9x16' else (270,270)
+                sheet.paste(fr.resize(size,R.LANCZOS),(i*270,48 if name=='9x16' else 580))
+                d.text((i*270+10,28 if name=='9x16' else 560),f'{t:.2f}s',font=font,fill='#404040')
+            qa['outputs'][name]={'file':str(paths[name].relative_to(ROOT)).replace('\\','/'),
+              'dimensions':list(meta['size']),'duration':meta['duration'],'decoded_frames':actual,'bytes':paths[name].stat().st_size}
+        finally:reader.close()
+    sheet.save(RESULT/'juice_video_15s_contact_2026-11-04.png')
+    (RESULT/'juice_video_qa_2026-11-04.json').write_text(json.dumps(qa,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
+    print('Complete: 450 frames, 15 seconds, portrait/square, caption bounds passed.',flush=True)
 
-def scene_img(idx, fallback):
-    """Use a generated/real lifestyle still if result/juice_scene_0N_*.png|jpg exists, else fallback."""
-    import glob
-    hits = sorted(glob.glob(f'result/juice_scene_{idx:02d}_*.png') + glob.glob(f'result/juice_scene_{idx:02d}_*.jpg'))
-    if hits:
-        print('scene', idx, '->', hits[0]); return Image.open(hits[0]).convert('RGB')
-    return fallback
-
-S1, S2, S3, S4 = scene_img(1, pouch), scene_img(2, label), scene_img(3, pouch), scene_img(4, pouch)
-scenes = [
-    # (duration s, image, zoom0, zoom1, c0, c1, caption, sub)
-    (3.5, S1, 1.00, 1.18, (0.5, 0.45), (0.52, 0.40), '출근 가방에 쏙', '납작한 파우치, 한 포씩'),
-    (4.0, S2, 1.15, 1.30, (0.42, 0.45), (0.46, 0.52), '청송사과즙 120ml 한 포', '사과 100% · 첨가물 없음 (라벨 표기)'),
-    (3.5, S3, 1.25, 1.10, (0.55, 0.60), (0.45, 0.55), '개봉해 바로, 또는 컵에 따라', '하루 한 포, 간식으로'),
-    (3.0, S4, 1.05, 1.22, (0.5, 0.5), (0.5, 0.35), '50포 한 박스 · 삼형제농원', '낮 12시 전 주문 당일 발송'),
-]
-frames = []
-XF = int(0.4 * FPS)
-for i, (dur, img, z0, z1, c0, c1, cap, sub) in enumerate(scenes):
-    n = int(dur * FPS)
-    for k in range(n):
-        t = k / max(n - 1, 1)
-        fr = kenburns(img, t, z0, z1, c0[0], c0[1], c1[0], c1[1])
-        a = min(1.0, k / (0.5 * FPS), (n - 1 - k) / XF if i < len(scenes) - 1 else 1.0)  # caption fade-in/out
-        fr = caption(fr, cap, sub, a)
-        if i > 0 and k < XF:  # crossfade from previous last frame
-            prev = frames[-1 - (XF - 1 - k)] if False else last
-            w = k / XF
-            fr = Image.blend(prev, fr, w)
-        frames.append(fr)
-    last = frames[-1]
-nE = int(1.5 * FPS); ec = endcard(0)
-for k in range(nE):
-    w = min(1.0, k / XF); frames.append(Image.blend(last, ec, w))
-
-out = 'result/juice_video_15s_9x16_2026-11-04.mp4'
-wr = imageio.get_writer(out, fps=FPS, codec='libx264', quality=8, pixelformat='yuv420p', macro_block_size=None)
-for fr in frames: wr.append_data(np.asarray(fr))
-wr.close()
-# 1:1 version: center crop 1080x1080
-out2 = 'result/juice_video_15s_1x1_2026-11-04.mp4'
-wr = imageio.get_writer(out2, fps=FPS, codec='libx264', quality=8, pixelformat='yuv420p', macro_block_size=None)
-for fr in frames: wr.append_data(np.asarray(fr.crop((0, 420, W, 420 + 1080))))
-wr.close()
-# contact sheet for review
-sheet = Image.new('RGB', (6 * 270, 480), 'white')
-for i, t in enumerate([0, 3.6, 7.6, 11.2, 13.5, 14.9]):
-    f = frames[min(len(frames) - 1, int(t * FPS))].resize((270, 480)); sheet.paste(f, (i * 270, 0))
-sheet.save('result/juice_video_15s_contact_2026-11-04.png')
-print('frames', len(frames), 'sec', len(frames) / FPS, out, os.path.getsize(out) // 1024, 'KB')
+if __name__=='__main__':main()

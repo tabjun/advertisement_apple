@@ -1,0 +1,295 @@
+{
+  "request": 101,
+  "type": "AI stills with local pan/zoom/crossfade, not generated-motion footage",
+  "fps": 30,
+  "expected_frames": 450,
+  "duration_seconds": 15.0,
+  "audio": "none",
+  "sources": [
+    "juice_scene_01_bag.png",
+    "juice_scene_02_pouch.png",
+    "juice_scene_03_pour.png",
+    "juice_scene_04_box.png",
+    "juice_scene_05_family.png"
+  ],
+  "caption_bounds": {
+    "1080x1920:출근 가방에 쏙": {
+      "main": "출근 가방에 쏙",
+      "sub": "납작한 파우치, 한 포씩",
+      "bounds": [
+        [
+          279.0,
+          1677,
+          801.0,
+          1752
+        ],
+        [
+          324.0,
+          1810,
+          756.0,
+          1851
+        ]
+      ],
+      "inside_frame": true
+    },
+    "1080x1080:출근 가방에 쏙": {
+      "main": "출근 가방에 쏙",
+      "sub": "납작한 파우치, 한 포씩",
+      "bounds": [
+        [
+          325.0,
+          939,
+          755.0,
+          1001
+        ],
+        [
+          376.0,
+          1023,
+          704.0,
+          1054
+        ]
+      ],
+      "inside_frame": true
+    },
+    "1080x1920:청송사과즙 120ml 한 포": {
+      "main": "청송사과즙 120ml 한 포",
+      "sub": "국내산 청송군 사과 100%",
+      "bounds": [
+        [
+          112.5,
+          1678,
+          967.5,
+          1753
+        ],
+        [
+          297.5,
+          1810,
+          782.5,
+          1850
+        ]
+      ],
+      "inside_frame": true
+    },
+    "1080x1080:청송사과즙 120ml 한 포": {
+      "main": "청송사과즙 120ml 한 포",
+      "sub": "국내산 청송군 사과 100%",
+      "bounds": [
+        [
+          187.5,
+          939,
+          892.5,
+          1001
+        ],
+        [
+          355.0,
+          1023,
+          725.0,
+          1053
+        ]
+      ],
+      "inside_frame": true
+    },
+    "1080x1920:개봉해 바로, 또는 컵에 따라": {
+      "main": "개봉해 바로, 또는 컵에 따라",
+      "sub": "120ml 파우치",
+      "bounds": [
+        [
+          52.5,
+          1678,
+          1027.5,
+          1754
+        ],
+        [
+          411.5,
+          1810,
+          668.5,
+          1850
+        ]
+      ],
+      "inside_frame": true
+    },
+    "1080x1080:개봉해 바로, 또는 컵에 따라": {
+      "main": "개봉해 바로, 또는 컵에 따라",
+      "sub": "120ml 파우치",
+      "bounds": [
+        [
+          133.5,
+          940,
+          946.5,
+          1003
+        ],
+        [
+          441.5,
+          1023,
+          638.5,
+          1053
+        ]
+      ],
+      "inside_frame": true
+    },
+    "1080x1920:50포 한 박스 · 삼형제농원": {
+      "main": "50포 한 박스 · 삼형제농원",
+      "sub": "영업일 낮 12시 전 주문 당일 발송",
+      "bounds": [
+        [
+          80.0,
+          1677,
+          1000.0,
+          1752
+        ],
+        [
+          220.0,
+          1810,
+          860.0,
+          1850
+        ]
+      ],
+      "inside_frame": true
+    },
+    "1080x1080:50포 한 박스 · 삼형제농원": {
+      "main": "50포 한 박스 · 삼형제농원",
+      "sub": "영업일 낮 12시 전 주문 당일 발송",
+      "bounds": [
+        [
+          160.5,
+          939,
+          919.5,
+          1001
+        ],
+        [
+          297.0,
+          1023,
+          783.0,
+          1053
+        ]
+      ],
+      "inside_frame": true
+    },
+    "end:1080x1920:청송사과즙": {
+      "main": "청송사과즙",
+      "bounds": [
+        [
+          260.0,
+          1175,
+          820.0,
+          1283
+        ]
+      ],
+      "inside_frame": true
+    },
+    "end:1080x1920:120ml × 50포": {
+      "main": "120ml × 50포",
+      "bounds": [
+        [
+          299.0,
+          1344,
+          781.0,
+          1402
+        ]
+      ],
+      "inside_frame": true
+    },
+    "end:1080x1920:29,900원 · 무료배송": {
+      "main": "29,900원 · 무료배송",
+      "bounds": [
+        [
+          185.5,
+          1478,
+          894.5,
+          1555
+        ]
+      ],
+      "inside_frame": true
+    },
+    "end:1080x1920:삼형제농원": {
+      "main": "삼형제농원",
+      "bounds": [
+        [
+          410.0,
+          1632,
+          670.0,
+          1682
+        ]
+      ],
+      "inside_frame": true
+    },
+    "end:1080x1080:청송사과즙": {
+      "main": "청송사과즙",
+      "bounds": [
+        [
+          315.0,
+          650,
+          765.0,
+          737
+        ]
+      ],
+      "inside_frame": true
+    },
+    "end:1080x1080:120ml × 50포": {
+      "main": "120ml × 50포",
+      "bounds": [
+        [
+          344.5,
+          780,
+          735.5,
+          827
+        ]
+      ],
+      "inside_frame": true
+    },
+    "end:1080x1080:29,900원 · 무료배송": {
+      "main": "29,900원 · 무료배송",
+      "bounds": [
+        [
+          257.0,
+          875,
+          823.0,
+          936
+        ]
+      ],
+      "inside_frame": true
+    },
+    "end:1080x1080:삼형제농원": {
+      "main": "삼형제농원",
+      "bounds": [
+        [
+          430.0,
+          980,
+          650.0,
+          1022
+        ]
+      ],
+      "inside_frame": true
+    }
+  },
+  "outputs": {
+    "9x16": {
+      "file": "result/juice_video_15s_9x16_2026-11-04.mp4",
+      "dimensions": [
+        1080,
+        1920
+      ],
+      "duration": 15.0,
+      "decoded_frames": 450,
+      "bytes": 30355997
+    },
+    "1x1": {
+      "file": "result/juice_video_15s_1x1_2026-11-04.mp4",
+      "dimensions": [
+        1080,
+        1080
+      ],
+      "duration": 15.0,
+      "decoded_frames": 450,
+      "bytes": 9254409
+    }
+  },
+  "note": "Local creative preview only. Label main words visually checked; original-print pixel identity not guaranteed.",
+  "manual_review": {
+    "checked_at": "2026-11-05T00:17:22+09:00",
+    "method": "Both rows of contact sheet extracted from encoded MP4s, six time points per format",
+    "captions": "No observed misspelling or clipping in sampled frames; all text bounding boxes inside output frames",
+    "label": "Main words compared visually with references; no observed main-word error. Tiny print and pixel-identical reproduction not guaranteed.",
+    "staging": "AI-created scenes; box design and visible pouch count are not evidence of actual packing."
+  }
+}
