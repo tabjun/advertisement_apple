@@ -1,0 +1,2 @@
+date,test_id,surface,device,query_group,impressions,clicks,cost_ex_vat,cost_inc_vat,ad_attributed_conversions,store_visits,orders,cancels,returns,net_orders,boxes,net_revenue,cogs,packaging,shipping_seller,fee,coupon,refund_loss,contribution_before_ads,profit_after_ads,other_changes,note
+2026-11-04,T1,네이버 통합검색,모바일,청송사과즙,,,,,,,,,,,,,,,,,,,,,"",예시 행. surface=네이버 통합검색/네이버 쇼핑탭/당근/기타외부/콘텐츠. 광고 귀속 전환과 store orders는 더하지 않음
