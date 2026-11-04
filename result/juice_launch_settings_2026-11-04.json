@@ -4,7 +4,8 @@
     86,
     87,
     88,
-    89
+    89,
+    91
   ],
   "session": "Claude-20261104-86",
   "status": "approval_pending_local_only",
@@ -168,7 +169,7 @@
       "current": 100,
       "cap_proposed": 150,
       "start": 100,
-      "note": "#89 가격 인하로 여유 축소. 수수료 확인 후 상한 재검토"
+      "note": "원가 기준 상한 계산 중단(#91). 노출 부족 확인 시 150원까지"
     },
     "daily_budget_krw": {
       "recorded": 10000,
@@ -254,13 +255,10 @@
     "IP/계정 분산"
   ],
   "fill_before_launch": [
-    "가공비",
-    "박스 단가(농협)",
-    "\"50포 5만원\" 해석",
-    "네이버 수수료율(정산화면)",
+    "대표이미지 A/B 촬영",
     "파우치 각인 날짜",
-    "매니저/편집 권한",
-    "1인1개 제한 해제 여부"
+    "제주/도서 추가 배송비",
+    "매니저/편집 권한"
   ],
   "formulas": {
     "net_orders": "주문 - 취소 - 반품",
@@ -293,30 +291,6 @@
       "첨가물 NO 인쇄"
     ]
   },
-  "cost_estimate_per_box_2026-11-04": {
-    "apple_raw": {
-      "krw": 10000,
-      "range": [
-        8600,
-        12000
-      ],
-      "basis": "18kg 30,000원 / 2.5~3.5박스 (#89)"
-    },
-    "pouch_50": 7500,
-    "shipping": 3900,
-    "box": "미확인",
-    "processing": "미확인",
-    "naver_fee": "정산화면 확인",
-    "known_sum": 21400,
-    "remaining_at_39900_before_box_processing_fee": 18500,
-    "remaining_at_24900_plus_5000_before_box_processing_fee": 8500
-  },
-  "allowed_cpc_scenarios": {
-    "assumed_cvr_pct": 2.87,
-    "keep_3000": 160,
-    "keep_0": 240,
-    "note": "24,900+5,000 기준. 수수료·박스·가공 전. 입찰 100원 유지, 상한 150원 재검토"
-  },
   "page_flow": [
     "광고 카드: 이미지A·제목·39,900 무료배송·C1",
     "첫 화면 5줄: 120ml×50포 / 사과100% 청송군·첨가물 없음(라벨) / 직접 키운 사과 착즙 / 12시 전 당일 발송 / 가격·구매",
@@ -325,10 +299,11 @@
     "FAQ·영상·농원 소개"
   ],
   "price_decision_2026-11-04": {
-    "price_krw": 24900,
-    "shipping_charged_krw": 5000,
+    "display": "배송비 포함 29,900원 (상품 24,900 + 배송 5,000)",
     "customer_total": 29900,
     "applied_live": false,
-    "goal": "판매량 증가로 손실 상쇄"
-  }
+    "goal": "노출·유입·구매 증가로 판매량 확대"
+  },
+  "purchase_limit": "1인 1개 제한 해제 (사용자 결정 #91, 미적용)",
+  "cost_policy_2026-11-04": "사용자 지시(#91): 완제품 1박스 5만원. 단가·손익 계산은 중단, 손실 감수. 노출·유입·구매 증가에 집중"
 }
