@@ -1,0 +1,152 @@
+{
+  "request_ids": [
+    94,
+    103,
+    104
+  ],
+  "computed_on": "2026-11-08",
+  "source_files": [
+    "juice_access_data_followup_2026-11-05.json",
+    "juice_access_data_followup_2026-11-08.json"
+  ],
+  "product_id": "11659930652",
+  "sales_windows": [
+    {
+      "period": [
+        "2025-10-01",
+        "2025-11-29"
+      ],
+      "product_id": "11659930652",
+      "payments": 0,
+      "refunds": 0,
+      "payment_minus_refund": 0,
+      "method": "완전한 상품 목록 3개가 전부 생과. 결합된 숫자 문자열은 미해석",
+      "warning": "상품결제건수·환불건수. 현재 확정 주문/박스 수·순매출과 동일하지 않음"
+    },
+    {
+      "period": [
+        "2025-11-30",
+        "2026-01-28"
+      ],
+      "product_id": "11659930652",
+      "payments": 1,
+      "refunds": 0,
+      "payment_minus_refund": 1,
+      "method": "상품 ID와 결제/환불 열을 직접 대응",
+      "warning": "상품결제건수·환불건수. 현재 확정 주문/박스 수·순매출과 동일하지 않음"
+    },
+    {
+      "period": [
+        "2026-01-29",
+        "2026-03-29"
+      ],
+      "product_id": "11659930652",
+      "payments": 3,
+      "refunds": 1,
+      "payment_minus_refund": 2,
+      "method": "상품 ID와 결제/환불 열을 직접 대응",
+      "warning": "상품결제건수·환불건수. 현재 확정 주문/박스 수·순매출과 동일하지 않음"
+    },
+    {
+      "period": [
+        "2026-03-30",
+        "2026-05-28"
+      ],
+      "product_id": "11659930652",
+      "payments": 1,
+      "refunds": 1,
+      "payment_minus_refund": 0,
+      "method": "상품 ID와 결제/환불 열을 직접 대응",
+      "warning": "상품결제건수·환불건수. 현재 확정 주문/박스 수·순매출과 동일하지 않음"
+    },
+    {
+      "period": [
+        "2026-05-29",
+        "2026-07-27"
+      ],
+      "product_id": "11659930652",
+      "payments": 0,
+      "refunds": 0,
+      "payment_minus_refund": 0,
+      "method": "스토어 전체 결제 0, 상품 데이터 행 없음",
+      "warning": "상품결제건수·환불건수. 현재 확정 주문/박스 수·순매출과 동일하지 않음"
+    },
+    {
+      "period": [
+        "2026-07-28",
+        "2026-09-25"
+      ],
+      "product_id": "11659930652",
+      "payments": 0,
+      "refunds": 0,
+      "payment_minus_refund": 0,
+      "method": "스토어 전체 결제 0, 상품 데이터 행 없음",
+      "warning": "상품결제건수·환불건수. 현재 확정 주문/박스 수·순매출과 동일하지 않음"
+    },
+    {
+      "period": [
+        "2026-09-26",
+        "2026-11-03"
+      ],
+      "product_id": "11659930652",
+      "payments": 1,
+      "refunds": 0,
+      "payment_minus_refund": 1,
+      "method": "상품 ID와 결제/환불 열을 직접 대응",
+      "warning": "상품결제건수·환불건수. 현재 확정 주문/박스 수·순매출과 동일하지 않음"
+    }
+  ],
+  "sales_totals": {
+    "period": [
+      "2025-10-01",
+      "2026-11-03"
+    ],
+    "payments": 6,
+    "refunds": 2,
+    "payment_minus_refund": 4,
+    "confirmed_orders": null,
+    "boxes": null,
+    "net_revenue_krw": null
+  },
+  "recent_juice_visits": 13,
+  "recent_juice_payments": 0,
+  "recent_store_period": [
+    "2026-10-28",
+    "2026-11-03"
+  ],
+  "ads": {
+    "account": "1755169",
+    "period": [
+      "2026-10-28",
+      "2026-11-07"
+    ],
+    "ad_id": "nad-a001-02-000000378841949",
+    "ad_title": "청송사과즙 얼음골 사과하나 120ml 50포",
+    "product_id": "11659930652",
+    "status": "운영 가능",
+    "impressions": 594,
+    "clicks": 3,
+    "cost_krw": 166,
+    "total_conversion_events": 2,
+    "total_conversion_value_krw": 89900,
+    "purchase_complete_events": 1,
+    "purchase_complete_value_krw": 39900,
+    "other_conversion_value_krw": 50000,
+    "note": "광고귀속 구매완료1건. 스토어주문원장미대조·증분효과/실험승자아님. 비용/손익계산없음."
+  },
+  "ad_ctr_percent": 0.51,
+  "validation": {
+    "window_boundaries": "연속·중복 없음",
+    "product_and_total_rows": "합계 일치",
+    "source_scope": "해당 상품만 집계",
+    "causal_effect": "미측정",
+    "order_ledger": "2단계 인증으로 재조회 미완료"
+  },
+  "limitations": [
+    "스토어 저장 자료는 11/3까지, 광고 자료는 11/7까지. 같은 기간의 전환율로 결합 금지.",
+    "구매완료 1건은 광고 귀속 이벤트. 실제 취소/반품·증분 효과 미확인.",
+    "총 전환 2건 및 89,900원을 구매 2건/구매매출로 보고하지 않음.",
+    "이전 세션에서 주문통합검색을 열었으나 원장 행이 파일에 남지 않아 확정 주문 집계에 사용하지 않음.",
+    "2024-01-01부터의 전 기간, 기기별 최신 실적, 매체×검색어×기기 최신 교차 자료는 미확인."
+  ]
+}

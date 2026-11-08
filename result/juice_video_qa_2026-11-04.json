@@ -291,5 +291,44 @@
     "captions": "No observed misspelling or clipping in sampled frames; all text bounding boxes inside output frames",
     "label": "Main words compared visually with references; no observed main-word error. Tiny print and pixel-identical reproduction not guaranteed.",
     "staging": "AI-created scenes; box design and visible pouch count are not evidence of actual packing."
+  },
+  "request_103_reassembly": {
+    "run_on": "2026-11-05",
+    "verified_on": "2026-11-08",
+    "request_ids": [
+      103,
+      104
+    ],
+    "command": "py -3.12 scripts/make_juice_video.py",
+    "result": "450 frames / 15.0 seconds / caption bounds passed",
+    "byte_identical_to_reviewed_commit": {
+      "result/juice_video_15s_9x16_2026-11-04.mp4": true,
+      "result/juice_video_15s_1x1_2026-11-04.mp4": true,
+      "result/juice_video_15s_contact_2026-11-04.png": true
+    },
+    "scene_dimensions": {
+      "juice_scene_01_bag.png": [
+        1080,
+        1920
+      ],
+      "juice_scene_02_pouch.png": [
+        1080,
+        1920
+      ],
+      "juice_scene_03_pour.png": [
+        1080,
+        1920
+      ],
+      "juice_scene_04_box.png": [
+        1080,
+        1920
+      ],
+      "juice_scene_05_family.png": [
+        1080,
+        1920
+      ]
+    },
+    "new_image_generation_this_followup": false,
+    "note": "#101에서생성한5장재사용. 02제품컷의세로구도 재생성1회는#101이력."
   }
 }

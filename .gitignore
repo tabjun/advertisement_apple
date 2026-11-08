@@ -152,3 +152,9 @@ result/*
 !result/juice_scene_contact_2026-11-04.png
 !result/juice_scene_generation_2026-11-04.json
 !result/juice_video_qa_2026-11-04.json
+
+# #103/#104 reviewed non-personal sales and ads UI aggregates
+!result/juice_access_data_followup_2026-11-05.json
+!result/juice_access_data_followup_2026-11-08.json
+!result/juice_followup_summary_2026-11-08.json
+!result/juice_followup_report_2026-11-08.md

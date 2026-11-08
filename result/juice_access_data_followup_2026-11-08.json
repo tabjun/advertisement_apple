@@ -1,0 +1,51 @@
+{
+  "request_ids": [
+    94,
+    103,
+    104
+  ],
+  "observed_on": "2026-11-08",
+  "ads": {
+    "account": "1755169",
+    "period": [
+      "2026-10-28",
+      "2026-11-07"
+    ],
+    "ad_id": "nad-a001-02-000000378841949",
+    "ad_title": "청송사과즙 얼음골 사과하나 120ml 50포",
+    "product_id": "11659930652",
+    "status": "운영 가능",
+    "impressions": 594,
+    "clicks": 3,
+    "cost_krw": 166,
+    "total_conversion_events": 2,
+    "total_conversion_value_krw": 89900,
+    "purchase_complete_events": 1,
+    "purchase_complete_value_krw": 39900,
+    "other_conversion_value_krw": 50000,
+    "note": "광고귀속 구매완료1건. 스토어주문원장미대조·증분효과/실험승자아님. 비용/손익계산없음."
+  },
+  "current_ad_product": {
+    "price_krw": 39900,
+    "shipping": "무료배송",
+    "brand": "미입력",
+    "manufacturer": "미입력"
+  },
+  "store_access": {
+    "status": "이메일2단계인증 발송 후 입력 대기·조회 탭 닫힘",
+    "no_new_signup": true,
+    "no_permission_change": true
+  },
+  "live_settings_changed": false,
+  "source_pages": [
+    "https://ads.naver.com/manage/ad-accounts/1755169/sa/ads/nad-a001-02-000000378841949",
+    "https://sell.smartstore.naver.com"
+  ],
+  "source_pages_note": "Source URL is the observed material page. Metrics were read after clicking the parent ad-group button; its specific URL was not retained.",
+  "pending": [
+    "스마트스토어 주문 원장 재조회·구매확정 금액·취소/반품·판매 박스 수",
+    "매체×검색어×기기 최신 교차 보고서",
+    "현재 상품 날짜·제조원·출고/태그/구매제한",
+    "jun99120 등록 매니저 상태 조회"
+  ]
+}
