@@ -1,0 +1,18 @@
+{
+  "mode": "built-in image_gen",
+  "references": [
+    "result/juice_scene_02_pouch.png"
+  ],
+  "prompts": {
+    "sip": "Use case: ads-marketing. Create a photorealistic Korean apple-juice lifestyle advertising photograph, portrait 9:16, highest practical resolution. Reference image is the exact cream flat foil apple-juice pouch: retain package structure, grey apple motifs, green outline and red apples, Korean main print 청송얼음골 사과즙 / 얼음골 / 사과하나 and 120ml. A fictional adult woman aged about 28 wearing a plain pale cream shirt is gently drinking directly from the torn TOP CORNER of the pouch. Close crop from below the nose to upper torso, no eyes or full face, no jewelry or other brand, natural adult hands. The small torn corner actually touches her lips; the other hand holds the pouch front clearly facing camera and does not cover its main print. It is a flat sachet, absolutely NO cap, spout, bottle, straw or resealable closure. Bright fresh daylight, plain white/light warm background, relaxed ordinary action, no health claim or customer testimonial, no other props. Focus on the act of a light sip and real package, clean premium product photography, anatomically plausible hands. No added text, captions, price, badges, certification, watermark. Subject is AI advertising model, not a real customer.",
+    "cute": "Use case: illustration-story. Create one wide clean illustration strip, landscape aspect ratio 3:1, transparent background. Three separate equally spaced simple cute icons in one row, each fully inside its own third with generous whitespace. LEFT: a tiny cream flat juice pouch with a simple red apple motif, its upper right corner torn off with two small fresh sparkle marks; CENTER: a rounded clear tumbler containing amber apple juice with a little friendly smiling apple next to it; RIGHT: a small mint-green refrigerator with the door open just enough to show two cream juice pouches, and a tiny snowflake outside. Elegant cheerful Korean food shop editorial illustration, rounded shapes, fine dark olive outlines, soft pastel sage green and light peach with warm golden juice, simple readable silhouettes, no gradients or busy decorations. No people, hands, faces on actual package, no logos, certification badges, numbers or letters anywhere, no words. The separate apple mascot may have two simple black dot eyes and a tiny smile. Keep all 3 objects distinct, same scale, consistent style, no panel borders. These will illustrate tear and sip, pour into cup, and chill. Real transparent background, not a checkerboard."
+  },
+  "source_outputs": {
+    "sip": "exec-5561631f-be68-4287-bb8e-377953b69d7d.png",
+    "howto": "exec-30d34412-f378-4ecc-8bf5-0e9bbfe7df9f.png"
+  },
+  "notes": [
+    "Price is fixed to 29,900 KRW / free shipping by current user instruction.",
+    "No factory photograph or certification badge was generated."
+  ]
+}
