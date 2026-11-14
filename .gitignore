@@ -160,22 +160,8 @@ result/*
 !result/juice_followup_report_2026-11-08.md
 !result/juice_page_image_checklist_2026-11-15.md
 
-# #108-112 reviewed seller detail page and generated assets
-!result/juice_seller_pack_2026-11-15/
-!result/juice_seller_pack_2026-11-15/01_product.png
-!result/juice_seller_pack_2026-11-15/02_sip.png
-!result/juice_seller_pack_2026-11-15/03_how_to.png
-!result/juice_seller_pack_2026-11-15/04_process.png
-!result/juice_seller_pack_2026-11-15/05_box.png
-!result/juice_seller_pack_2026-11-15/box.png
-!result/juice_seller_pack_2026-11-15/contact_sheet.png
-!result/juice_seller_pack_2026-11-15/full_page.png
-!result/juice_seller_pack_2026-11-15/full_page_preview.png
-!result/juice_seller_pack_2026-11-15/generation_prompts.json
-!result/juice_seller_pack_2026-11-15/howto_icons.png
-!result/juice_seller_pack_2026-11-15/index.html
-!result/juice_seller_pack_2026-11-15/manifest.json
-!result/juice_seller_pack_2026-11-15/product.png
-!result/juice_seller_pack_2026-11-15/README.md
-!result/juice_seller_pack_2026-11-15/sip.png
-!result/juice_seller_pack_2026-11-15.zip
+
+# #113-114 assets used by the original long detail page
+!result/juice_detail_assets_2026-11-15/
+!result/juice_detail_assets_2026-11-15/sip.png
+!result/juice_detail_assets_2026-11-15/howto_icons.png
